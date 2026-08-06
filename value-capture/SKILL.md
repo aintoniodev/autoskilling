@@ -110,14 +110,22 @@ Tell them:
   that could work as a standalone post")
 
 Then ask:
-- "Want me to convert this note into an X-ready thread?"
+- "Want me to convert this note into an X-ready thread or a LinkedIn post?"
 
-If they say yes, apply the **md-to-x-thread** procedure to the just-saved
-note: read it, strip all markdown formatting (headers, callouts, frontmatter,
-bold, italic, code, links, horizontal rules), and present the plain text.
-Then ask where to save the thread file (always `.md`).
+**X/Twitter thread:**
+If they say yes to X, apply the **md-to-x-thread** procedure to the
+just-saved note: read it, strip all markdown formatting (headers, callouts,
+frontmatter, bold, italic, code, links, horizontal rules), and present the
+plain text. Then ask where to save the thread file (always `.md`).
 
-If they say no or skip it, you're done.
+**LinkedIn post:**
+If they say yes to LinkedIn, apply the **linkedin-post-format** procedure to
+the just-saved note: read it, identify the strongest arc, restructure into
+Hook → Story → Proof → CTA, strip all markdown/Obsidian syntax, compress
+to 1,300–2,500 characters, and present the plain text. Then ask where to
+save the post file (always `.md`).
+
+If they say no or skip both, you're done.
 
 ## Note Template
 

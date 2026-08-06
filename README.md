@@ -9,6 +9,8 @@ Portable, runtime-agnostic `SKILL.md` files — no dependencies, no lock-in. Dro
 | Skill | Description |
 |---|---|
 | [value-capture](value-capture/) | Turn any session into a structured Obsidian note — real process, dead ends, failures, and one sharp insight. |
+| [md-to-x-thread](md-to-x-thread/) | Convert any markdown document to plain text formatted for X/Twitter — strip formatting only, change zero words. |
+| [linkedin-post-format](linkedin-post-format/) | Convert a value-capture note into a LinkedIn-optimized text post — Hook → Story → Proof → CTA, stripped and restructured for the feed. |
 
 ## Install
 
