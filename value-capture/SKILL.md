@@ -101,13 +101,23 @@ Let them specify the full path or a folder. If they give no path or say somethin
 
 Name the file: `YYYY-MM-DD - <title>.md` where `<title>` is a short slug (3-6 words).
 
-### 5. Report
+### 5. Report and optional thread conversion
 
 Tell them:
 - Where the note was saved
 - A one-line summary of what was captured
 - Any content angles that stand out (e.g. "this has a strong thread about X
   that could work as a standalone post")
+
+Then ask:
+- "Want me to convert this note into an X-ready thread?"
+
+If they say yes, apply the **md-to-x-thread** procedure to the just-saved
+note: read it, strip all markdown formatting (headers, callouts, frontmatter,
+bold, italic, code, links, horizontal rules), and present the plain text.
+Then ask where to save the thread file (always `.md`).
+
+If they say no or skip it, you're done.
 
 ## Note Template
 
