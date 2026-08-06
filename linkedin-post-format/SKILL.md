@@ -6,7 +6,7 @@ description: >-
   markdown/Obsidian syntax, optimizes for mobile-first readability and
   engagement. Triggers: "format for LinkedIn", "linkedin post", "turn into
   a LinkedIn post", "linkedin-ify", "make it LinkedIn ready", "/linkedin-post-format".
-version: 1
+version: 2
 created: "2026-08-06"
 updated: "2026-08-06"
 ---
@@ -26,7 +26,25 @@ specific format — different platform, different shape, different rules.
 
 Read the source markdown. If the user pasted it inline, use it directly.
 
-### 2. Identify the core arc
+### 2. Caption or standalone?
+
+Before structuring, decide what the post *accompanies* — this overrides the
+length model and the structure:
+
+- **Standalone text post:** the text IS the post. Use the full Hook → Story →
+  Proof → CTA structure and the 1,300–2,500 character target (step 5).
+- **Caption for media (video / image / carousel):** the media carries the
+  story; the caption only makes someone watch and comment. Keep it to 1–4 short
+  lines. Do NOT retell the story in text — you'll compete with the media and
+  bury the asset. Lead with the one-line outcome, defer to the media ("this
+  happened"), end with the CTA. The verbatim prompt or the literal input is
+  often the whole caption's proof.
+
+When in doubt, ask the user which it is. Don't guess and produce 1,800
+characters of caption for a video — the character target only applies to
+standalone text.
+
+### 3. Identify the core arc
 
 Scan the note and identify the single strongest arc — not everything in the
 note belongs in one LinkedIn post. The arc is usually one of:
@@ -40,7 +58,7 @@ If the note has multiple strong arcs, pick the one most likely to make someone
 stop scrolling. When in doubt, **the failure or confession is almost always the
 stronger hook** — not the success.
 
-### 3. Restructure into Hook → Story → Proof → CTA
+### 4. Restructure into Hook → Story → Proof → CTA
 
 Map the note sections to the LinkedIn structure:
 
@@ -54,6 +72,9 @@ Map the note sections to the LinkedIn structure:
 **Hook (1–3 short lines):**
 - Open with the outcome, not the activity: "The build went from 14s to 2s"
   beats "I worked on build optimization"
+- Lead with what came out — not why you decided to do it. "I built a video in
+  90 minutes" lands; "I wanted to give a tool credit" is your motivation and
+  belongs in line two, not line one
 - Name a specific situation the reader recognises, or a number/result
 - The hook must work in ~140 characters — that's all mobile shows before "see more"
 - One short sentence per line (5–12 words). No commas in line 1 if possible.
@@ -72,6 +93,9 @@ Map the note sections to the LinkedIn structure:
 - A before/after or a specific example
 - If the source note doesn't have hard numbers, use specific details instead
   — named tools, exact error messages, precise situations
+- When the value is leverage (small input → big output), show the verbatim
+  input. "Here's exactly what I typed" is stronger proof than any description
+  of what you did — the reader sees the tiny cause and the large effect at once
 
 **CTA (1–2 lines):**
 - Ask a *specific* question tied to the post's topic, not a generic "what do
@@ -82,17 +106,20 @@ Map the note sections to the LinkedIn structure:
 - Never: "Like and share if you found this useful"
 - Never: nothing (a post with no CTA leaves momentum to die)
 
-### 4. Compress to the right length
+### 5. Compress to the right length
 
 The ideal LinkedIn post is **1,300–2,500 characters** (roughly 200–400 words).
 Posts under 400 characters consistently underperform. Posts over 2,500 are fine
 but every paragraph must earn its place — no filler.
 
+This target is for **standalone text posts only**. A media caption should be
+far shorter — see step 2. Don't pad a caption to hit 1,300.
+
 Count characters after formatting. If over 2,500, cut the weakest paragraph
 or merge two that say similar things. If under 800, you probably haven't given
 enough story — expand the middle section with one more specific detail.
 
-### 5. Strip ALL non-LinkedIn formatting
+### 6. Strip ALL non-LinkedIn formatting
 
 Remove everything that LinkedIn's plain-text editor doesn't render:
 
@@ -124,7 +151,7 @@ Remove everything that LinkedIn's plain-text editor doesn't render:
 - No indentation, no bullets, no dashes as list markers
 - Whitespace IS the formatting — it's what makes mobile readers stop and read
 
-### 6. Style pass
+### 7. Style pass
 
 Apply these voice rules to the output:
 
@@ -142,7 +169,7 @@ Apply these voice rules to the output:
 - **Match intensity to substance.** A quick fix gets a tight post. A deep
   exploration gets a deeper one. Never pad.
 
-### 7. Present and ask where to save
+### 8. Present and ask where to save
 
 Present the formatted post as plain text (no labels, no "Hook:", no "Story:").
 Read it as-is: one continuous text with blank line breaks.
@@ -156,10 +183,11 @@ Name the file: `YYYY-MM-DD - linkedin-<slug>.md` where `<slug>` is a short
 phrase (3–5 words). The content inside is plain text with blank-line breaks.
 The file extension is `.md`.
 
-### 8. Optional: character count and suggestions
+### 9. Optional: character count and suggestions
 
 After saving, report:
-- Character count (warn if under 800 or over 3,000)
+- Character count (warn if under 800 or over 3,000 — but a media caption is
+  expected to be far shorter; see step 2)
 - Whether it includes any of the top engagement levers (specificity, emotional
   pull, number in hook, image-worthy moment)
 - If no number appears in the first ~140 characters, suggest adding one
@@ -168,6 +196,11 @@ After saving, report:
 
 ## Pitfalls
 
+- **Do NOT default to a long text post when the post is a caption.** If there's
+  a video, image, or carousel attached, the media carries the story. A caption
+  is 1–4 lines; its only job is to make someone watch and comment. Retelling the
+  story in text buries the asset and competes with it. Decide caption vs
+  standalone first (step 2) — it changes the entire output.
 - **Do NOT write a summary.** This is not a TL;DR of the note. It's one sharp
   arc, restructured for LinkedIn. Summaries are boring. Arcs are shareable.
 - **Do NOT preserve the note structure.** The note has 5–6 sections. The LinkedIn
