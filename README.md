@@ -31,6 +31,20 @@ npx skills add oteroantoniogom/autoskilling --skill delegate
 The `delegate` skill also ships an agent: copy `delegate/agents/executor.md`
 to `~/.pi/agent/agents/` (or your agent dir) so the subagent tool can find it.
 
+## Testing
+
+The `delegate` skill ships a test suite (static + mutation + real-API
+integration):
+
+```bash
+cd delegate
+python -m pytest tests/ -q          # static suite, free
+python scripts/mutate.py            # mutation testing, 24 mutants, free
+RUN_INTEGRATION=1 python -m pytest tests/test_integration.py -q   # ~$0.0008, real API
+```
+
+`tests/` and `scripts/` only depend on pytest — no other setup.
+
 Works with Claude Code, Cursor, Windsurf, pi, or any agent that reads `.agents/skills/`.
 
 ## License

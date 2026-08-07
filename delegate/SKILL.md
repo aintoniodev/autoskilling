@@ -174,6 +174,37 @@ This keeps the orchestrator's context flat no matter how many tasks run.
 
 ## Verification
 
-- `pi -m glm-5.2` session lists the `executor` subagent.
+- `pi -m zai/glm-5.2` session lists the `executor` subagent.
+- Static suite passes: `python -m pytest tests/ -q` (from this directory).
+- Mutation score is 100%: `python scripts/mutate.py`.
 - A demo run: 3+ parallel executor tasks complete, deterministic checks pass,
   per-task cost logged.
+
+## Testing
+
+The skill ships its own test suite — behavior is testable, not just documented.
+
+```bash
+cd delegate
+python -m pytest tests/ -q            # static suite (free, fast)
+python scripts/mutate.py              # mutation testing (free)
+RUN_INTEGRATION=1 python -m pytest tests/test_integration.py -q   # real API call
+```
+
+- `tests/test_skill.py` — locks in SKILL.md's required behaviors: contract
+  template (objetivo/entradas/restricciones/criterio_de_exito, absolute paths,
+  no-delete clause), provider-prefixed setup ids, warm-up + deterministic
+  validation steps, 3-line return design, and every live-failure pitfall.
+- `tests/test_executor_agent.py` — locks in the agent's rules: pinned
+  provider-prefixed model, restricted tools (no web, no recursion), no-delete,
+  exact paths, verify-before-reporting, 3-line output format.
+- `tests/test_integration.py` — spawns the real executor agent (same
+  invocation as the subagent extension) on a fixture migration contract and
+  validates the result deterministically. Gated by `RUN_INTEGRATION=1`
+  because it costs real API money (measured: ~$0.0008 per run, and the
+  report includes the exact per-run cost, tokens and cache reads).
+- `scripts/mutate.py` — applies 24 single-behavior mutations to a copy of the
+  skill and re-runs the static suite. Every mutation must be killed: a
+  survivor means either a coverage gap or a behavior the skill no longer
+  documents. If you edit the skill, run it; if you add a rule, add both a
+  test and a mutation that deletes it.
