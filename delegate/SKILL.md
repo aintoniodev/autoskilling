@@ -35,8 +35,8 @@ Do NOT use when:
 
 | Role | Where | Model | Responsibilities |
 |---|---|---|---|
-| Orchestrator | Main pi session | `glm-5.2` (launch `pi -m glm-5.2`) | Understand goal, plan, decompose into contracts, review results, keep direction |
-| Executor | `subagent` tool → `executor` agent | `deepseek-v4-flash` (pinned in agent frontmatter) | Receive ONE self-contained contract, complete it, return a 3-line summary |
+| Orchestrator | Main pi session | chosen at setup (default `glm-5.2`) | Understand goal, plan, decompose into contracts, review results, keep direction |
+| Executor | `subagent` tool → `executor` agent | chosen at setup (default `deepseek-v4-flash`, pinned in agent frontmatter) | Receive ONE self-contained contract, complete it, return a 3-line summary |
 
 The frontier between them is the **work contract** — never the conversation.
 The orchestrator transforms its context into a spec the executor can run
@@ -45,20 +45,41 @@ contratos de trabajo."
 
 ## Setup
 
+**0. Choose your models — ask the user first.**
+
+Before anything else, ask the user which installed model/provider should play
+ each role. Two questions, always:
+
+- **Thinking (orchestrator):** the model that plans, decomposes and reviews.
+  Expensive reasoning, used sparingly.
+- **Executing (executor):** the model that completes contracts. Fast and
+  cheap, used at volume.
+
+Enumerate what is actually available in the user's setup — the models and
+providers of their installed agents (pi, codex, Claude, opencode, ...). Never
+assume the defaults from this skill. Then configure what they chose:
+
+- Orchestrator: launch the session with the provider-prefixed id, e.g.
+  `pi -m zai/glm-5.2`.
+- Executor: write the chosen id (`provider/model`) into
+  `agents/executor.md` frontmatter, then reinstall the agent (step 1).
+
+Provider-prefixed ids are mandatory: bare ids can resolve to a different
+provider in a spawned process and fail with "No API key found".
+
 1. Install the executor agent (once):
    ```bash
    cp delegate/agents/executor.md ~/.pi/agent/agents/executor.md
    ```
-2. Launch orchestrator sessions with the expensive model:
+2. Launch orchestrator sessions with the model chosen in step 0 — always
+   provider-prefixed:
    ```bash
    pi -m zai/glm-5.2
    ```
-   Use the provider-prefixed id (`provider/model`): bare ids can resolve to a
-   different provider in a spawned process and fail with "No API key found".
 3. Verify: ask the orchestrator "list available subagents" — `executor` must
    appear. The frontmatter `model:` field is passed to the spawned process
-   (`--model`), so the executor always runs on the cheap model regardless of
-   the orchestrator's.
+   (`--model`), so the executor always runs on the chosen cheap model
+   regardless of the orchestrator's.
 
 ## Procedure
 
@@ -203,7 +224,7 @@ RUN_INTEGRATION=1 python -m pytest tests/test_integration.py -q   # real API cal
   validates the result deterministically. Gated by `RUN_INTEGRATION=1`
   because it costs real API money (measured: ~$0.0008 per run, and the
   report includes the exact per-run cost, tokens and cache reads).
-- `scripts/mutate.py` — applies 24 single-behavior mutations to a copy of the
+- `scripts/mutate.py` — applies 27 single-behavior mutations to a copy of the
   skill and re-runs the static suite. Every mutation must be killed: a
   survivor means either a coverage gap or a behavior the skill no longer
   documents. If you edit the skill, run it; if you add a rule, add both a

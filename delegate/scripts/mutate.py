@@ -35,8 +35,15 @@ MUTATIONS = [
      "criterio_de_exito: <how to verify the task is done correctly>",
      "criterio: <how to verify>"),
     # --- SKILL.md: setup ---
+    ("setup pierde la elección de modelos", "SKILL.md",
+     "Choose your models — ask the user first", "(removed)"),
+    ("setup pierde el rol ejecutar", "SKILL.md",
+     "**Executing (executor):**", "**Executing:**"),
+    ("setup deja de enumerar agentes instalados", "SKILL.md",
+     "installed agents (pi, codex, Claude, opencode, ...)",
+     "installed models"),
     ("setup usa id sin proveedor", "SKILL.md",
-     "pi -m zai/glm-5.2", "pi -m glm-5.2"),
+     "pi -m zai/glm-5.2", "pi -m glm-5.2", True),
     ("setup pierde verificación del agente", "SKILL.md",
      "list available subagents", "check the agent list"),
     # --- SKILL.md: procedimiento ---
@@ -54,8 +61,8 @@ MUTATIONS = [
     ("límites de uso borrados", "SKILL.md",
      "Do NOT use when:", "Consider skipping when:"),
     ("arquitectura pierde modelo ejecutor", "SKILL.md",
-     "`deepseek-v4-flash` (pinned in agent frontmatter)",
-     "`deepseek-v4` (pinned in agent frontmatter)"),
+     "default `deepseek-v4-flash`, pinned in agent frontmatter",
+     "default `deepseek-v4`, pinned in agent frontmatter"),
     ("sección Pitfalls renombrada", "SKILL.md",
      "## Pitfalls", "## Risks"),
     # --- executor.md: identidad ---
@@ -106,7 +113,9 @@ def main() -> int:
     print(f"=== Mutation testing del skill delegate ({len(MUTATIONS)} mutantes) ===\n")
     killed, survived, not_applied = [], [], []
 
-    for label, rel, old, new in MUTATIONS:
+    for spec in MUTATIONS:
+        label, rel, old, new = spec[:4]
+        replace_all = len(spec) > 4 and spec[4]
         with tempfile.TemporaryDirectory() as td:
             copy = pathlib.Path(td) / "delegate"
             shutil.copytree(REPO, copy, ignore=shutil.ignore_patterns("__pycache__", ".pytest_cache"))
@@ -115,7 +124,10 @@ def main() -> int:
             if old not in text:
                 not_applied.append((label, "OLD NOT FOUND"))
                 continue
-            target.write_text(text.replace(old, new, 1), encoding="utf-8")
+            target.write_text(
+                text.replace(old, new) if replace_all else text.replace(old, new, 1),
+                encoding="utf-8",
+            )
 
             proc = run_suite(copy, args.verbose)
             if proc.returncode != 0:

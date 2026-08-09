@@ -40,6 +40,28 @@ def test_when_to_use_has_boundaries(skill_md):
         assert boundary in section, f"missing boundary: {boundary}"
 
 
+def test_setup_asks_for_both_roles(skill_md):
+    """El setup debe PREGUNTAR al usuario qué modelos usa para cada rol,
+    enumerando los agentes instalados — nunca asumir los defaults."""
+    setup = " ".join(skill_md.split("## Procedure")[0].split())
+    assert "Choose your models" in setup
+    assert "ask the user" in setup, "setup must ask, not assume"
+    assert "Thinking (orchestrator)" in setup, "thinking role must be asked"
+    assert "Executing (executor)" in setup, "executing role must be asked"
+    assert "installed agents" in setup, "must enumerate the installed agents"
+    assert "codex" in setup and "opencode" in setup, "must name concrete installed agents"
+    assert "Never assume the defaults" in setup
+
+
+def test_setup_configures_chosen_models(skill_md):
+    """Lo elegido debe configurarse: id provider/model en el lanzamiento y en
+    el frontmatter del agente ejecutor."""
+    setup = skill_md.split("## Procedure")[0]
+    assert "agents/executor.md" in setup
+    assert "provider/model" in setup
+    assert "provider-prefixed" in setup
+
+
 def test_architecture_roles(skill_md):
     arch = skill_md.split("## Setup")[0]
     assert "glm-5.2" in arch, "orchestrator model must be named"

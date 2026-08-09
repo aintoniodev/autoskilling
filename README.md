@@ -39,7 +39,7 @@ integration):
 ```bash
 cd delegate
 python -m pytest tests/ -q          # static suite, free
-python scripts/mutate.py            # mutation testing, 24 mutants, free
+python scripts/mutate.py            # mutation testing, 27 mutants, free
 RUN_INTEGRATION=1 python -m pytest tests/test_integration.py -q   # ~$0.0008, real API
 ```
 
