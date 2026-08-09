@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "genetic-programming-pipelines",
+  "version": "1.0.0",
+  "description": "Genetic programming (GP / programación genética) applied to neural-network and deep-learning pipelines: evolutionary program-space search (code, trees, configs, architectures, augmentations, prompts, agents) with fitness-ladder design, LLM operators, champion selection, diversity pressure, and objective audits. Activates only on genetic-programming topics, not generic autoresearch.",
+  "author": {
+    "name": "otero"
+  },
+  "license": "MIT",
+  "keywords": [
+    "genetic-programming",
+    "autoresearch",
+    "evolutionary-computation",
+    "neural-architecture-search",
+    "automl",
+    "hyperparameter-optimization",
+    "llm-agents"
+  ],
+  "extensions": {}
+}
