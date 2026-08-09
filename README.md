@@ -16,6 +16,8 @@ document external tools and scripts with enough detail to replicate them.
 | [linkedin-post-format](linkedin-post-format/) | Convert a value-capture note into a LinkedIn-optimized text post — Hook → Story → Proof → CTA, stripped and restructured for the feed. |
 | [scientific-synthesis](scientific-synthesis/) | Produce a rigorous multi-source synthesis with confidence grading, thematic integration, and conflict reconciliation. |
 | [delegate](delegate/) | Multi-model orchestration: the main session (GLM 5.2) plans and delegates contracts to a fast executor subagent (DeepSeek V4 Flash) in parallel. |
+| [swarmforge](swarmforge/) | SwarmForge (Uncle Bob's tmux-based multi-agent orchestration) as an Agent Plugin 1.0.0: bootstrap two-pack/four-pack/six-pack workflows, configure roles + layered constitution, run handoffs, clean shutdown. Ships a native-Windows stack (bash + psmux + bb.exe, no WSL). |
+| [agent-plugin-authoring](agent-plugin-authoring/) | Author Agent Skills and package them as Agent Plugins 1.0.0: SKILL.md frontmatter rules, directory layout, plugin.json manifest, validation with the bundled spec validator. |
 
 ## Install
 
@@ -27,6 +29,16 @@ npx skills add oteroantoniogom/autoskilling --skill linkedin-post-format
 npx skills add oteroantoniogom/autoskilling --skill scientific-synthesis
 npx skills add oteroantoniogom/autoskilling --skill delegate
 ```
+
+`swarmforge/` is an **Agent Plugin 1.0.0** package (not a plain skill): install it
+with an Agent Plugins compatible client from `swarmforge/plugin.json`, or copy the
+skill directory directly into your agent's skills folder:
+
+```bash
+cp -r swarmforge/skills/swarmforge ~/.pi/agent/skills/swarmforge
+```
+
+See `swarmforge/README.md` for details.
 
 The `delegate` skill also ships an agent: copy `delegate/agents/executor.md`
 to `~/.pi/agent/agents/` (or your agent dir) so the subagent tool can find it.

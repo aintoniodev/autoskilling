@@ -1,0 +1,8 @@
+# Force LF for shell/Clojure scripts — CRLF breaks bash shebangs and bb execution
+*.sh     text eol=lf
+*.bb     text eol=lf
+*.bat    text eol=crlf
+*.prompt text eol=lf
+*.md     text
+*.json   text
+*.py     text
