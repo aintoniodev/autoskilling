@@ -268,6 +268,7 @@ By default the swarm drives tmux. Set `SWARMFORGE_TERMINAL` to override:
 - `ghostty` — Ghostty backend
 - `terminal-app` — macOS Terminal.app backend
 - `windows-terminal` — Windows Terminal backend (for WSL)
+- `windows-native` — Windows Terminal + psmux on native Windows (no WSL)
 - `none` — no terminal backend (headless/manual)
 
 Adapters live in `scripts/terminal-adapters/`. A custom backend must implement the
@@ -276,6 +277,29 @@ windows/panes. Read an existing adapter in `scripts/terminal-adapters/` to see t
 signatures; `scripts/swarm-terminal-adapter.sh` is the entry point that dispatches to
 them. On native Windows, use `SWARMFORGE_TERMINAL=windows-native` (Windows Terminal +
 psmux, no WSL).
+
+## Agent Backends
+
+Stock backends are agent TUIs that run directly in the role window:
+`codex`, `claude`, `copilot`, `grok`. For control-CLI backends (like
+[orca](https://orca-app.dev) — it creates terminals but is not itself an agent),
+the plugin ships `scripts/orca-agent-driver.sh`: it runs in the role window, owns one
+orca terminal per role worktree, drives a headless agent per handoff task and streams
+the output into the swarm window. Wire it with:
+
+```sh
+# 1. patch swarmforge.bb: add "orca" to the parse-config agent whitelist and
+#    add the "orca" case to launch-command (see references/ORCA_BACKEND.md)
+# 2. register the repo + export the anchor
+orca repo add --path <project> --json
+# ORCA_REPO_ID=<id from 'orca repo list --json'> ORCA_MAIN=<main worktree path>
+# 3. swarmforge.conf
+#    window <role> orca <worktree> [task|batch]
+```
+
+Verified end-to-end on native Windows with a four-pack swarm (4 roles, real handoffs)
+on 2026-08-10. Full guide, exact patches and every pitfall hit:
+`references/ORCA_BACKEND.md`.
 
 ## Troubleshooting
 
@@ -291,6 +315,18 @@ psmux, no WSL).
 - **Agents missing the helpers** — after bootstrap, scripts are synced into each worktree
   and placed on the PATH; if an agent cannot find `swarm_handoff.sh` etc., re-run the
   bootstrap for that project.
+- **psmux windows open PowerShell instead of bash** — psmux ignores `set-option
+  default-shell` and `$SHELL`; only `~/.config/psmux/psmux.conf` works:
+  `set -g default-shell "C:\\Program Files\\Git\\usr\\bin\\bash.exe"`.
+  Backslashes MUST be doubled — psmux parses escape sequences (`\b` → backspace).
+- **A task was picked up but the agent never ran** — `ready_for_next.sh` prints the
+  task path plus the whole handoff payload (multi-line) and the path is
+  Windows-style. If your wrapper parses it, take the first line only and convert
+  with `cygpath -u`; never `xargs` (it strips backslashes). Batch items are
+  directories of `.handoff` files, not files.
+- **Driver/agent terminal integration stalls** — for the orca backend, see the
+  pitfall list in `references/ORCA_BACKEND.md` (selectors, cmd.exe shells,
+  `$0` resolution, orphaned processes, `skip-initial` marker for restarts).
 
 ## Verification
 

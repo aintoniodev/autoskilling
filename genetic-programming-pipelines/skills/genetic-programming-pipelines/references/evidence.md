@@ -56,3 +56,13 @@ Claim-to-source mapping for the `genetic-programming-pipelines` skill. Confidenc
 
 - Self-referential loops (AI generates → AI reviews) unresolved; AI Scientist validates reviewer against human ground truth, circularity critique remains open [C0].
 - SAGA: automating objective-function design is the unmet requirement [C3].
+
+## 9. Field validation — live GP benchmark (2026-08-10) [C1-empirical]
+
+Full run on native Windows: 3 generations, 18 CNN-MNIST candidates trained on an RTX 2060 (cheap tier 3ep/8k ≈ 20-90 s/candidate; full tier 12ep/60k ≈ 5-11 min). Claims from the skill reproduced in production:
+
+- **Rank inversion real**: cheap multi-seed crowned `g2_llm_002` (0.9799 mean, 5 seeds), full fidelity crowned `cand_004` (0.9948) — top-3 overlap 3/3 yet the top-1 flipped; champion selection must use full fidelity.
+- **Fidelity-tier blind spot**: a step scheduler (`step_size=3`) never fired in 3-epoch cheap runs → two genomes with different schedulers produced byte-identical fitness across 5 seeds (degeneracy signal).
+- **Gate mandatory**: a 6.5 M-param candidate was rejected by the deterministic budget gate before evaluation.
+- **Significance floor**: champion vs MLP baseline Δ=+3.7 pp cheap, P=0.0316 (multi-seed paired permutation, n=5 — the achievable floor); GP-vs-GP deltas not significant (P=0.12).
+- **LLM operators effective**: 6/6 LLM proposals gated clean; best offspring `g2_llm_002` reached 0.9944 full vs champion 0.9948 — converged plateau, honest non-claim.

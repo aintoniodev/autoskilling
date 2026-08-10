@@ -87,7 +87,8 @@ Mix LLM-prior proposals (FunSearch/EvoPrompt style) with random or structured ba
 
 - Re-measure proxy-to-true-objective correlation.
 - Check for fitness hacking.
-- Require **bootstrap/permutation significance** on any claimed champion improvement over the previous champion before accepting it.
+- Require **bootstrap/permutation significance** on any claimed champion improvement over the previous champion before accepting it. When the harness logs only final metrics (no per-epoch curves), use a **multi-seed paired permutation**: run champion vs previous champion at n seeds and permute the paired deltas. n=5 gives a minimum achievable P of 1/33 ≈ 0.031 — enough to reject chance for large deltas, and honestly reported as a floor.
+- Watch for **sibling degeneracy**: two genomes with identical fitness across all seeds mean a mutation dimension is inert at the current tier — audit tier coverage before spending more evaluations on that dimension.
 
 ### 8. Log everything
 
@@ -95,7 +96,8 @@ Population, fitness per fidelity tier, parents, operator used, timestamps, rejec
 
 ## Pitfalls
 
-- **Rank inversion**: weight sharing, reduced epochs, and surrogates reorder candidates differently than full training — validate cheap vs full rankings on a held-out subset.
+- **Rank inversion**: weight sharing, reduced epochs, and surrogates reorder candidates differently than full training — validate cheap vs full rankings on a held-out subset. **Top-1 flips even when top-k overlap passes**: observed 2026-08-10 (MNIST CNN, cheap=3ep/8k, full=12ep/60k) — cheap multi-seed crowned `g2_llm_002` (0.9799 mean), full crowned `cand_004` (0.9948), with top-3 overlap 3/3. Consequence: cheap fidelity **prunes**, full fidelity **selects the champion** — never accept a cheap-crowned champion, even with rank-inversion validation green.
+- **Fidelity-tier blind spots**: mechanisms that never fire at the cheap tier are invisible to selection, so mutations on them are neutral drift. Observed: a step scheduler (`step_size=3`) never fired in 3-epoch runs, producing byte-identical fitness across 5 seeds for two different genomes (`g1_llm_001` ≡ `g2_llm_002`). Detect via sibling degeneracy (identical fitness across seeds) and either lengthen the tier or drop the dimension from the search space at that tier.
 - **Val-selected ≠ test-selected**: selectors tuned on reduced-epoch or validation runs frequently fail to transfer to full training — never accept a champion without a full-fidelity confirmation run.
 - **Mode collapse**: without diversity pressure (archives, islands, QD), the population converges to one lineage and exploration stops.
 - **Ungated LLM candidates**: hallucinated or subtly incorrect code/configs evaluated as if valid — deterministic validation gates are mandatory.
@@ -108,7 +110,9 @@ Population, fitness per fidelity tier, parents, operator used, timestamps, rejec
 ## Verification
 
 1. Cheap-fidelity selection reproduces full-fidelity top-k on a held-out sample (e.g., top-3 overlap ≥ 2/3) before the loop is trusted.
-2. Every accepted champion improvement is significant under bootstrap/permutation against the previous champion (e.g., P < 0.05 on a shuffle test).
+2. Every accepted champion improvement is significant under bootstrap/permutation against the previous champion (e.g., P < 0.05 on a shuffle test); with multi-seed paired permutation, report the seed count and the achievable P floor.
+3. **The final champion is the best candidate under full fidelity**, not the cheap-fidelity leader — rank-inversion green (top-3 overlap) does not protect the top-1 position.
+4. No sibling degeneracy: two genomes with different mutation targets must not produce identical fitness across all seeds — if they do, a mutation dimension is inert at the selected tier.
 3. Population diversity metrics (archive occupancy, genotypic distance, lineage share) stay healthy — no single lineage exceeds a pre-set share of the population.
 4. Lineage log is complete: every candidate has parents, operator, fitness per tier, and timestamp; a reproduction run matches the logged champion.
 5. Objective audit passes: proxy-to-true correlation above threshold and drift alarms fired correctly when the proxy degraded.
