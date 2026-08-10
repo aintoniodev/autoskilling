@@ -13,7 +13,7 @@ description: >-
   without a genetic-programming framing.
 license: MIT
 metadata:
-  author: otero
+  author: Antonio Gómez
   version: "1.0.0"
   evidence-base: scientific-synthesis-2026-08-09
   evidence-path: references/evidence.md

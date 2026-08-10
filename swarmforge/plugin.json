@@ -3,9 +3,9 @@
   "name": "swarmforge",
   "version": "1.0.0",
   "description": "SwarmForge as an Agent Plugin: tmux-based multi-agent orchestration for git worktrees (two-pack / four-pack / six-pack workflows), with operational scripts, handoff helpers, constitution and role prompt templates.",
-  "author": { "name": "Antonio Otero", "url": "https://github.com/oteroantoniogom" },
+  "author": { "name": "Antonio Gómez", "url": "https://github.com/aintoniodev" },
   "homepage": "https://github.com/unclebob/swarm-forge",
-  "repository": "https://github.com/oteroantoniogom/autoskilling",
+  "repository": "https://github.com/aintoniodev/autoskilling",
   "license": "MIT",
   "keywords": ["swarmforge", "multi-agent", "orchestration", "tmux", "worktree", "handoff", "babashka", "gherkin", "tdd", "agent-plugin"]
 }

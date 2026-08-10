@@ -22,12 +22,12 @@ document external tools and scripts with enough detail to replicate them.
 ## Install
 
 ```bash
-npx skills add oteroantoniogom/autoskilling --skill value-capture
-npx skills add oteroantoniogom/autoskilling --skill md-to-x-thread
-npx skills add oteroantoniogom/autoskilling --skill launch-video-kit
-npx skills add oteroantoniogom/autoskilling --skill linkedin-post-format
-npx skills add oteroantoniogom/autoskilling --skill scientific-synthesis
-npx skills add oteroantoniogom/autoskilling --skill delegate
+npx skills add aintoniodev/autoskilling --skill value-capture
+npx skills add aintoniodev/autoskilling --skill md-to-x-thread
+npx skills add aintoniodev/autoskilling --skill launch-video-kit
+npx skills add aintoniodev/autoskilling --skill linkedin-post-format
+npx skills add aintoniodev/autoskilling --skill scientific-synthesis
+npx skills add aintoniodev/autoskilling --skill delegate
 ```
 
 `swarmforge/` is an **Agent Plugin 1.0.0** package (not a plain skill): install it
