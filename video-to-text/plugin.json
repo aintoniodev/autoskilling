@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "video-to-text",
+  "version": "1.0.0",
+  "description": "Extract transcript text from videos (TikTok, YouTube, Instagram, X, any URL) or local video files — fully local, no API keys. Ships scripts/vxtract.py: yt-dlp download + ffmpeg audio extraction + faster-whisper transcription (Spanish/English/auto, CPU or CUDA) with .txt/.md/.srt output. Alternative to cloud transcription services.",
+  "author": {
+    "name": "Antonio Gómez"
+  },
+  "license": "MIT",
+  "keywords": [
+    "transcription",
+    "subtitles",
+    "whisper",
+    "video",
+    "tiktok",
+    "youtube",
+    "speech-to-text",
+    "stt",
+    "yt-dlp"
+  ],
+  "extensions": {}
+}
