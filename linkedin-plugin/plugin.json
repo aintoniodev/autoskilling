@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "linkedin-profile-archive",
+  "version": "1.0.0",
+  "description": "Archive a LinkedIn profile's full posting history (text + images + engagement metrics) into a local folder for offline analysis. Drives a logged-in Chromium session over CDP to capture LinkedIn's internal voyager API, paginates until the last post, and downloads images through the browser. Ships capture_feed.py, fetch_all_pages.py, linkedin_archive.py, download_images.py, linkedin_report.py.",
+  "author": { "name": "Antonio Gómez", "url": "https://github.com/aintoniodev" },
+  "homepage": "https://github.com/aintoniodev/autoskilling",
+  "repository": "https://github.com/aintoniodev/autoskilling",
+  "license": "MIT",
+  "keywords": ["linkedin", "profile", "posts", "scrape", "archive", "activity", "images", "engagement", "voyager", "cdp", "agent-plugin"]
+}
