@@ -20,6 +20,8 @@ document external tools and scripts with enough detail to replicate them.
 | [swarmforge](swarmforge/) | SwarmForge (Uncle Bob's tmux-based multi-agent orchestration) as an Agent Plugin 1.0.0: bootstrap two-pack/four-pack/six-pack workflows, configure roles + layered constitution, run handoffs, clean shutdown. Ships a native-Windows stack (bash + psmux + bb.exe, no WSL). |
 | [agent-plugin-authoring](agent-plugin-authoring/) | Author Agent Skills and package them as Agent Plugins 1.0.0: SKILL.md frontmatter rules, directory layout, plugin.json manifest, validation with the bundled spec validator. |
 | [video-to-text](video-to-text/) | Extract transcript text from videos (TikTok, YouTube, any URL, local files) — yt-dlp + ffmpeg + faster-whisper, fully local, no API keys. Ships executable code in `scripts/` (vxtract.py): .txt/.md/.srt output, es/en/auto, CPU or CUDA. |
+| [autoresearch](autoresearch/) | Autonomous experiment loop, agent-native (no extension): pick an idea, implement, measure against a baseline, keep wins / revert regressions, log every run in `.auto/log.jsonl`, resume from disk alone. Distilled from davebcn87/pi-autoresearch. |
+| [fusion-models](fusion-models/) | Fuse models instead of racing them — cast subagents as ARCHITECT, BUILDER, VALIDATOR, JUDGE, ATTACKER, COORDINATOR: opinion, fusion merge, gate-first validation, debate, council (Borda), redteam, coordinate, and the full gauntlet pipeline. Distilled from disler/fusion-harness. |
 
 ## Install
 
@@ -29,6 +31,8 @@ npx skills add aintoniodev/autoskilling --skill md-to-x-thread
 npx skills add aintoniodev/autoskilling --skill launch-video-kit
 npx skills add aintoniodev/autoskilling --skill linkedin-post-format
 npx skills add aintoniodev/autoskilling --skill scientific-synthesis
+npx skills add aintoniodev/autoskilling --skill autoresearch
+npx skills add aintoniodev/autoskilling --skill fusion-models
 npx skills add aintoniodev/autoskilling --skill delegate
 ```
 
