@@ -6,10 +6,11 @@ I love to build. I focus on building complex things as simple as possible. I lov
 
 I wanted to share some of my preferences here so we can be more aligned as we work together.
 
-# Two lessons, before anything else
+# How I think about building
 
-- Unified interfaces win. Stripe: one API for any payment rail. HuggingFace: one library to download any model. OpenRouter: one API to use any model. Plaid: one API to get data from any bank. Twilio: one API for voice/text/etc. ~$200B of market cap in unified interfaces. When you design or pick tools, look for the single clean interface that hides the many underneath.
-- Speed is a feature. If a CPU cycle (0.3 ns) felt like 1 second, a 300 ms request would feel like 32 years. 300 ms is an eternity for a computer. Software should be way better than what we just accept these days.
+- Unified interfaces win. Stripe: one API for any payment rail. HuggingFace: one library to download any model. OpenRouter: one API to use any model. Plaid: one API to get data from any bank. Twilio: one API for voice/text/etc. ~$200B of market cap sits in unified interfaces. When we pick tools or design a system, prefer the one clean interface that hides the many. If it doesn't exist, building it is a product decision for me, not a hack for you.
+- 300 ms is an eternity. If a CPU cycle (0.3 ns) felt like 1 second, a 300 ms request would feel like 32 years. Treat slow paths as bugs: measure first, then cache, stream, or cut scope. No fake progress, no blocking the user while work runs.
+- Build from the user's path, not from the architecture. Name the one flow the user actually runs, build the smallest end-to-end version of that flow, and defer everything off it. No scaffolding for flows nobody has used yet. The smallest flow, still verified.
 
 # Coding preferences - general
 
