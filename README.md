@@ -24,6 +24,7 @@ document external tools and scripts with enough detail to replicate them.
 | [autoresearch-nas](autoresearch-nas/) | Investigate and search neural network architectures (NAS): propose → edit → train → measure → retain. Research mode (what structure a problem needs) and search mode (automate exploration in a defined space). Self-contained with bundled references. |
 | [dl-progress](dl-progress/) | Show deep learning training progress inside the agent conversation (tqdm for agents): per-epoch JSONL logger + Work Log blocks + live `dashboard.html` (polling, `t3-code_preview` ready). 3 adapters: vanilla PyTorch, Lightning, HF. |
 | [fusion-models](fusion-models/) | Fuse models instead of racing them — cast subagents as ARCHITECT, BUILDER, VALIDATOR, JUDGE, ATTACKER, COORDINATOR: opinion, fusion merge, gate-first validation, debate, council (Borda), redteam, coordinate, and the full gauntlet pipeline. Distilled from disler/fusion-harness. |
+| [file-pr](skills/file-pr/) | File a concise PR: check for an existing one, review the diff, follow title conventions, and write the body as one problem sentence + Summary (a visual) / Evidence (before → after) / Merge Danger (door + blast radius). Merges T3's `file-pr` and Matt Pocock's `pr`; see its CREDITS.md. |
 
 ## Install
 
@@ -38,6 +39,7 @@ npx skills add aintoniodev/autoskilling --skill autoresearch-nas
 npx skills add aintoniodev/autoskilling --skill dl-progress
 npx skills add aintoniodev/autoskilling --skill fusion-models
 npx skills add aintoniodev/autoskilling --skill delegate
+npx skills add aintoniodev/autoskilling --skill file-pr
 ```
 
 `swarmforge/` is an **Agent Plugin 1.0.0** package (not a plain skill): install it
