@@ -37,7 +37,7 @@ When the repository has a PR template (`.github/pull_request_template.md` or
 similar), build the body from it: keep its headings and follow its guidance.
 `gh pr create --body` skips the template, so apply it yourself. If the repo has
 a PR-body check (e.g. `scripts/check-pr-body.mjs`, `scripts/guardrails/pr.py`),
-run it on the body before filing.
+run it on the body before filing. Add no section the template does not have.
 
 With no template, use this shape:
 
@@ -108,7 +108,10 @@ lines, and no robot badges. Keep verification evidence that stands on its own.
 Check the title, description, quotes, and attachments for secrets and private
 details.
 
-Open a real PR rather than a draft so review bots run. If `gh pr create` fails
+Follow the repo's convention for draft versus ready (check `AGENTS.md`,
+`CLAUDE.md`, `CONTRIBUTING`). If it opens PRs as drafts, open it as a draft and
+mark it ready once the work is finished, so review bots run. With no
+convention, open a real PR rather than a draft. If `gh pr create` fails
 because the GraphQL rate limit is used up, open it through REST with
 `gh api repos/<owner>/<repo>/pulls -f title=... -f head=... -f base=... -F body=@<file>`. If the user also asked
 to babysit it, continue with the `babysit-pr` skill.
