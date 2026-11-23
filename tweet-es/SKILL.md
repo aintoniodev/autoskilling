@@ -25,10 +25,20 @@ Un post de Antonio cuenta una historia pequeña y real: tenía un problema, lo r
 - Emojis: 1 o 2, solo en los remates (🤓, 🙌). Nunca como viñetas.
 - Párrafos cortos separados por línea en blanco. Sin listas, sin negritas, sin hashtags.
 
+## Si falta contexto, pregunta antes de escribir
+
+Saca primero lo que puedas de la conversación y de la máquina (archivos, logs, comandos). Si aun así falta alguna de estas piezas, pregunta a Antonio antes de redactar, en una sola tanda de preguntas cortas, y no rellenes el hueco con suposiciones:
+
+- Para qué era o qué problema real lo disparó.
+- Qué hizo él y con qué herramienta (y si usó IA).
+- El resultado con su antes y después, y las cifras si es medible.
+- La pega o el coste.
+- Detalles propios que le den voz (su equipo, su proyecto, a quién iba dirigido).
+
 ## Reglas duras
 
 - Cero rayas largas (`—`). Usa comas, dos puntos o paréntesis.
-- Cifras reales y verificadas en la conversación o en la máquina; nunca inventadas ni redondeadas a favor. Si falta un dato, pregúntalo.
+- Cifras reales y verificadas en la conversación o en la máquina; nunca inventadas ni redondeadas a favor.
 - Nada de «No es X, es Y», ni listas de tres adjetivos, ni frases de autobombo.
 - Formato por defecto: un único post largo (X Premium, ~1.000 a 1.600 caracteres). Si pide tweet suelto (≤ 280) o hilo, condensa manteniendo el orden: problema, resultado, truco, pega, cierre.
 - Sugiere una imagen si existe algo que lo demuestre (comparativa, captura).
