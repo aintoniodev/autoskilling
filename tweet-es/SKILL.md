@@ -42,10 +42,11 @@ Céntrate en el tema del post. No metas historias de otros posts salvo que sean 
 
 - Primera persona, español de España, cercano. Humor y autoironía propios valen («o xs o como se diga jajaja»). Las expresiones de colega metidas a presión no («va como un tiro»).
 - Detalles propios y concretos en vez de genéricos: su equipo, su proyecto, su caso.
-- Ejemplos reales en lugar de nombres de categoría: «los "aprovechar" donde diríamos "usar"», no «los calcos».
+- Ejemplos reales en lugar de nombres de categoría: los "aprovechar" donde diríamos "usar", no "los calcos".
 - Opiniones sobre herramientas ajenas matizadas («funcionará bien en inglés»), no sentenciadas.
 - Tecnicismos solo si el lector los entiende por el contexto.
 - Emojis: de 0 a 2, elegidos por el tema de este post. Ninguno es fijo; cero es válido.
+- Comillas inglesas ("así"), nunca angulares («así»).
 - Párrafos cortos separados por línea en blanco. Sin negritas ni hashtags.
 
 ## Reglas duras

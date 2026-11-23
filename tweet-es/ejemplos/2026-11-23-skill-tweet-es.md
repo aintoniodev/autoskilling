@@ -19,11 +19,11 @@ Pruébala o hazte la tuya: github.com/aintoniodev/autoskilling 🇪🇸
 
 ## Versión de Antonio
 
-(El ejemplo de «aprovechar» y la ruta `/tree/main` del enlace los puso el agente a petición suya; el resto es literal.)
+(La ruta `/tree/main` del enlace la puso el agente a petición suya; el resto es literal.)
 
-Después de bastante tiempo, por fin me he hecho una skill para escribir tweets (o xs o como se diga jajaja) en español con IA.
+Después de bastante tiempo, por fin me he hecho una skill para escribir tweets (o xs o como se diga jajaja) con IA. En español, importante.
 
-La típica de /unslop, funcionará bien en inglés, pero en español deja bastante que desear; se le escapan las rayas largas, el «no es X, es Y» y los «aprovechar» donde diríamos «usar».
+La típica de /unslop, funcionará bien en inglés, pero en español deja bastante que desear; salen emdashes, el "no es X, es Y" y los "aprovechar" donde diríamos "usar".
 
 De momento, aunque está WiP, github.com/aintoniodev/autoskilling/tree/main/tweet-es, me pregunta el contexto antes de escribir y se ajusta con mis correcciones: le paso mi versión retocada y apunta qué cambié y por qué.
 
@@ -35,4 +35,7 @@ De momento, aunque está WiP, github.com/aintoniodev/autoskilling/tree/main/twee
 - Pidió cambiar «los calcos» por un ejemplo concreto: nombres de categoría abstractos no, el caso real sí.
 - Reconoce el estado del proyecto («aunque está WiP»).
 - Quitó la definición de «skill», la llamada a la acción («Pruébala o hazte la tuya») y el emoji. El enlace va dentro de la frase. Cero emojis es válido.
+- Comillas inglesas "" en vez de «». Lo pidió como regla general.
+- "En español, importante.": separa el matiz clave en una frase corta propia en vez de meterlo en mitad de otra.
+- Usa el término coloquial que usaría él ("salen emdashes") en vez de la versión formal ("las rayas largas").
 - Pidió que el aprendizaje desde sus correcciones fuese automático, no solo cuando él lo pida.
