@@ -25,7 +25,7 @@ document external tools and scripts with enough detail to replicate them.
 | [dl-progress](dl-progress/) | Show deep learning training progress inside the agent conversation (tqdm for agents): per-epoch JSONL logger + Work Log blocks + live `dashboard.html` (polling, `t3-code_preview` ready). 3 adapters: vanilla PyTorch, Lightning, HF. |
 | [fusion-models](fusion-models/) | Fuse models instead of racing them — cast subagents as ARCHITECT, BUILDER, VALIDATOR, JUDGE, ATTACKER, COORDINATOR: opinion, fusion merge, gate-first validation, debate, council (Borda), redteam, coordinate, and the full gauntlet pipeline. Distilled from disler/fusion-harness. |
 | [escritura-b2b-es](escritura-b2b-es/) | Redacta y revisa textos comerciales y técnicos B2B en español de España para dueños de pyme y decisores: ritmo asimétrico, psicología inversa, concreción con anclaje español, cero rayas largas y cero calcos de IA. |
-| [tweet-es](tweet-es/) | Redacta posts de X en español de España con voz propia: problema real, qué hizo la IA, el truco explicado con una analogía, la pega honesta y el compromiso final. Cifras reales y cero rayas largas. |
+| [tweet-es](tweet-es/) | Redacta posts de X en español de España con voz propia. Pregunta el contexto con opciones antes de escribir y aprende sola de cada corrección, guardando borrador, versión final y qué cambió en `ejemplos/`. Cifras reales y cero rayas largas. |
 | [file-pr](skills/file-pr/) | File a concise PR: check for an existing one, review the diff, follow title conventions, and write the body as one problem sentence + Summary (a visual) / Evidence (before → after) / Merge Danger (door + blast radius). Merges T3's `file-pr` and Matt Pocock's `pr`; see its CREDITS.md. |
 
 ## Install
