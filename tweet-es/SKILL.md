@@ -48,12 +48,18 @@ Céntrate en el tema del post. No metas historias de otros posts salvo que sean 
 - Emojis: de 0 a 2, elegidos por el tema de este post. Ninguno es fijo; cero es válido.
 - Comillas inglesas ("así"), nunca angulares («así»).
 - Párrafos cortos separados por línea en blanco. Sin negritas ni hashtags.
+- Pretérito perfecto para lo que ha pasado hoy («he visto», «le he pedido», «han descartado»). No mezcles con indefinido.
+- Pasos de un proceso: frase que los presenta acabada en dos puntos y debajo una lista con guiones, cada paso con su nombre, dos puntos y el detalle concreto («- Debate: cuatro agentes las discuten…»).
+- Términos en inglés que su lector usa tal cual (research, autoresearch, WiP) se quedan en inglés.
 
 ## Reglas duras
 
 - Cero rayas largas (`—`). Usa comas, dos puntos o paréntesis.
 - Hechos y cifras reales y verificados en la conversación o en la máquina. Una expectativa se dice como expectativa, nunca como resultado probado.
-- Nada de «No es X, es Y», ni listas de tres adjetivos, ni frases de autobombo, ni llamadas a la acción genéricas.
+- Nada de «No es X, es Y», ni listas de tres adjetivos, ni frases de autobombo, ni llamadas a la acción genéricas en imperativo («Pruébala»). Una invitación suave con el enlace debajo sí vale («Por si queréis probarla:»).
+- Reglas de /pstack:unslop aplicadas al español: sin paréntesis en lugar de comas; dos puntos solo antes de una lista o un ejemplo, nunca como conector entre frases; cada acción con su sujeto; una sola palabra para cada cosa; cifras en vez de valoraciones («entre un 7 % y un 44 % de lo prometido», no «casi todo ruido»); nada de «lo interesante ha sido» ni frases que valoren en vez de contar. Frases cortas, pero dos datos del mismo hecho pueden ir unidos con una coma.
+- Sin coletillas metidas a presión («jajaja», «tumbado», «vivas») si no salen del tema; el humor solo cuando él lo pone.
+- No metas interpretaciones suyas que no te haya dicho (por qué hizo algo, qué opina de otra herramienta).
 - Sugiere una imagen si existe algo que lo demuestre (comparativa, captura).
 
 ## 3. Aprende de cada corrección (automático)
