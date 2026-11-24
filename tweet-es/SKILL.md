@@ -7,7 +7,7 @@ description: Redacta posts de X (Twitter) en español de España con la voz de A
 
 Un post de Antonio cuenta algo real en primera persona: qué le pasaba, qué hizo y qué sacó de ello. Divulgación cercana, no anuncio.
 
-Antes de escribir, lee todos los archivos de `ejemplos/`. Cada uno trae un borrador del agente, la versión que Antonio publicó y qué cambió. Esos cambios mandan más que cualquier regla de este archivo. Las frases y emojis de los ejemplos muestran el tono; no los copies.
+Antes de escribir, lee todos los archivos de `ejemplos/`. Cada uno trae un borrador del agente, la versión que Antonio publicó y qué cambió. Esos cambios mandan más que cualquier regla de este archivo, pero solo para el mismo formato: lo que cambió en un email no vale para un post, y al revés. Las frases y emojis de los ejemplos muestran el tono; no los copies.
 
 ## 1. Pregunta el contexto antes de escribir
 
@@ -34,7 +34,7 @@ Recursos opcionales, solo si el tema lo pide:
 
 - Una analogía cotidiana cuando haya un concepto técnico que explicar.
 - Un contraste entre dos opciones (A frente a B) cuando las haya, cada una con su dato si es medible.
-- Un enlace, dentro de la frase y no como llamada a la acción.
+- Un enlace, dentro de la frase o en su propia línea tras una invitación suave («Por si queréis probarla:»), nunca como llamada a la acción en imperativo.
 
 Céntrate en el tema del post. No metas historias de otros posts salvo que sean el tema.
 
@@ -48,16 +48,16 @@ Céntrate en el tema del post. No metas historias de otros posts salvo que sean 
 - Emojis: de 0 a 2, elegidos por el tema de este post. Ninguno es fijo; cero es válido.
 - Comillas inglesas ("así"), nunca angulares («así»).
 - Párrafos cortos separados por línea en blanco. Sin negritas ni hashtags.
-- Pretérito perfecto para lo que ha pasado hoy («he visto», «le he pedido», «han descartado»). No mezcles con indefinido.
+- Pretérito perfecto para lo que ha pasado hoy («he visto», «le he pedido», «han descartado»). No pases esas acciones de hoy al indefinido; lo que pasó en un periodo ya cerrado sigue en indefinido.
 - Pasos de un proceso: frase que los presenta acabada en dos puntos y debajo una lista con guiones, cada paso con su nombre, dos puntos y el detalle concreto («- Debate: cuatro agentes las discuten…»).
 - Términos en inglés que su lector usa tal cual (research, autoresearch, WiP) se quedan en inglés.
 
 ## Reglas duras
 
-- Cero rayas largas (`—`). Usa comas, dos puntos o paréntesis.
+- Cero rayas largas (`—`). Usa comas o un punto.
 - Hechos y cifras reales y verificados en la conversación o en la máquina. Una expectativa se dice como expectativa, nunca como resultado probado.
 - Nada de «No es X, es Y», ni listas de tres adjetivos, ni frases de autobombo, ni llamadas a la acción genéricas en imperativo («Pruébala»). Una invitación suave con el enlace debajo sí vale («Por si queréis probarla:»).
-- Reglas de /pstack:unslop aplicadas al español: sin paréntesis en lugar de comas; dos puntos solo antes de una lista o un ejemplo, nunca como conector entre frases; cada acción con su sujeto; una sola palabra para cada cosa; cifras en vez de valoraciones («entre un 7 % y un 44 % de lo prometido», no «casi todo ruido»); nada de «lo interesante ha sido» ni frases que valoren en vez de contar. Frases cortas, pero dos datos del mismo hecho pueden ir unidos con una coma.
+- Reglas de /pstack:unslop aplicadas al español: sin paréntesis en lugar de comas; dos puntos solo antes de una lista, de un ejemplo, de un enlace o tras el nombre de un paso («- Debate: …»), nunca como conector entre frases; cada acción con su sujeto; una sola palabra para cada cosa; cifras en vez de valoraciones («entre un 7 % y un 44 % de lo prometido», no «casi todo ruido»); nada de «lo interesante ha sido» ni frases que valoren en vez de contar. Frases cortas, pero dos datos del mismo hecho pueden ir unidos con una coma.
 - Sin coletillas metidas a presión («jajaja», «tumbado», «vivas») si no salen del tema; el humor solo cuando él lo pone.
 - No metas interpretaciones suyas que no te haya dicho (por qué hizo algo, qué opina de otra herramienta).
 - Sugiere una imagen si existe algo que lo demuestre (comparativa, captura).

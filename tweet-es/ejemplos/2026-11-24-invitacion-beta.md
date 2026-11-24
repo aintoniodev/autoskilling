@@ -38,3 +38,9 @@ y abajo algo tipo ceo & founder of zalto, que da autoridad
 - Cambió "y lo miro yo" por una salida concreta que ya existe en el producto (el botón "Informar de un problema", arriba a la derecha). Un detalle real del producto vale más que una promesa genérica.
 - Pidió el cargo bajo la firma para dar autoridad ante desconocidos. En un email a gente que no le conoce, el cargo sí suma; en un post en primera persona no hace falta.
 - El resto del borrador (saludo con el origen, el porqué de pedir el canal, el estado honesto de la beta) lo dio por bueno.
+
+## Segunda corrección (mismo día)
+
+- Quitó "sin filtro" de todos los emails ("dímelo sin filtro", "qué te parece, sin filtro"). Es una muletilla de cercanía impostada; quedó "contéstame a este correo" y "me encantaría saber qué te parece".
+- Pidió el cargo ("Fundador y CEO de Zalto") también en los emails a los testers de la alpha, no solo a desconocidos: en un email de producto la firma con cargo va siempre, aunque el tono sea de conocido.
+- Pidió tratar a un contacto marcado como "conocido" igual que a los demás apuntados: no inventar una versión más familiar si él no la pide.
