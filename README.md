@@ -26,6 +26,7 @@ document external tools and scripts with enough detail to replicate them.
 | [fusion-models](fusion-models/) | Fuse models instead of racing them — cast subagents as ARCHITECT, BUILDER, VALIDATOR, JUDGE, ATTACKER, COORDINATOR: opinion, fusion merge, gate-first validation, debate, council (Borda), redteam, coordinate, and the full gauntlet pipeline. Distilled from disler/fusion-harness. |
 | [escritura-b2b-es](escritura-b2b-es/) | Redacta y revisa textos comerciales y técnicos B2B en español de España para dueños de pyme y decisores: ritmo asimétrico, psicología inversa, concreción con anclaje español, cero rayas largas y cero calcos de IA. |
 | [tweet-es](tweet-es/) | Redacta posts de X en español de España con voz propia. Pregunta el contexto con opciones antes de escribir y aprende sola de cada corrección, guardando borrador, versión final y qué cambió en `ejemplos/`. Cifras reales y cero rayas largas. |
+| [deepify](deepify/) | Research an idea or optimization to the best answer: wide first-principles web research, four adversarial debaters, measured experiments for every surviving hypothesis, then an autoresearch loop on the winner. Model-agnostic. |
 | [file-pr](skills/file-pr/) | File a concise PR: check for an existing one, review the diff, follow title conventions, and write the body as one problem sentence + Summary (a visual) / Evidence (before → after) / Merge Danger (door + blast radius). Merges T3's `file-pr` and Matt Pocock's `pr`; see its CREDITS.md. |
 
 ## Install
@@ -44,6 +45,7 @@ npx skills add aintoniodev/autoskilling --skill escritura-b2b-es
 npx skills add aintoniodev/autoskilling --skill tweet-es
 npx skills add aintoniodev/autoskilling --skill delegate
 npx skills add aintoniodev/autoskilling --skill file-pr
+npx skills add aintoniodev/autoskilling --skill deepify
 ```
 
 `swarmforge/` is an **Agent Plugin 1.0.0** package (not a plain skill): install it
