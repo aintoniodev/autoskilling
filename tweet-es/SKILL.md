@@ -68,7 +68,7 @@ Cuando Antonio devuelva su versión retocada de un borrador, o diga que lo ha pu
 
 1. Resuelve la carpeta real de esta skill (`realpath` del `SKILL.md`, puede ser un enlace simbólico).
 2. Crea `ejemplos/AAAA-MM-DD-<tema>.md` con: el contexto que dio, tu borrador, su versión literal y una lista de qué cambió y por qué. Si te pide un retoque concreto (cambiar una palabra, arreglar un enlace), aplícalo y anótalo.
-3. Si un cambio es una regla general (lo dice él, o el mismo cambio aparece en dos ejemplos), edita las secciones de este archivo para reflejarla. Si contradice una regla, gana su corrección. Los cambios puntuales se quedan solo en el ejemplo.
+3. Si un cambio es una regla general (lo dice él, o el mismo cambio aparece en dos ejemplos), edita las secciones de este archivo para reflejarla. Si contradice una regla, gana su corrección. Los cambios puntuales se quedan solo en el ejemplo, y los de otro formato (un email, por ejemplo) también, salvo que la regla diga a qué formato se aplica.
 4. Dile en una línea qué ha aprendido y qué archivo has tocado. No hagas commit ni push sin que lo pida.
 
 ## Antes de entregar
