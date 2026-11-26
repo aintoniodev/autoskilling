@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 5,
+    "c5": 8,
+    "c6": 8,
+    "c7": 6,
+    "c8": 5,
+    "c9": 8,
+    "c10": 3
+  },
+  "total": 65,
+  "worst_flaw": "Launch should wait until independent checks establish that offline completion and recorded work-start times can reliably verify that technicians completed the safety checklist before starting work."
+}

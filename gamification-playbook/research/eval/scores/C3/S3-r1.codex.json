@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 6,
+    "c2": 7,
+    "c3": 7,
+    "c4": 7,
+    "c5": 8,
+    "c6": 9,
+    "c7": 6,
+    "c8": 4,
+    "c9": 8,
+    "c10": 4
+  },
+  "total": 66,
+  "worst_flaw": "A shift with one kiosk entry counts the same as a shift with every completed action logged, so the pilot cannot determine whether nurses consistently log their hand-hygiene actions."
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 8,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 7,
+    "c7": 8,
+    "c8": 6,
+    "c9": 9,
+    "c10": 7
+  },
+  "total": 75,
+  "worst_flaw": "The pilot bundles prompts, goals, and shared progress without specifying a plain-feedback comparison arm, so the results cannot show which additions are worth keeping."
+}

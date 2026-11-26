@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 8,
+    "c3": 5,
+    "c4": 7,
+    "c5": 8,
+    "c6": 5,
+    "c7": 8,
+    "c8": 6,
+    "c9": 9,
+    "c10": 5
+  },
+  "total": 70,
+  "worst_flaw": "The retention rule relies on a 10-point lift from a sequential comparison without accounting for changes in PR case mix, review volume, or sampling uncertainty."
+}

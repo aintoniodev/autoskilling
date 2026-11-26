@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 8,
+    "c7": 7,
+    "c8": 7,
+    "c9": 9,
+    "c10": 6
+  },
+  "total": 74,
+  "worst_flaw": "The pilot gives only the programme teams private progress feedback and recognition, so it cannot tell whether recognition adds value over plain feedback."
+}

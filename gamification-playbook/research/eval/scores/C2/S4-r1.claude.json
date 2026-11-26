@@ -1,0 +1,1 @@
+{"criteria":{"c1":8,"c2":7,"c3":7,"c4":8,"c5":7,"c6":7,"c7":7,"c8":5,"c9":8,"c10":3},"total":67,"worst_flaw":"There is no comparison group or incremental-value test. Success is judged by a before/after coverage rise against the baseline, so plain workflow fixes and the reward's own effect can't be separated, and no cost or harm decision thresholds are set ahead of time."}

@@ -1,0 +1,1 @@
+{"criteria":{"c1":8,"c2":7,"c3":6,"c4":7,"c5":6,"c6":7,"c7":5,"c8":4,"c9":7,"c10":3},"total":60,"worst_flaw":"There is no comparison group and no predefined decision criteria, so a simple before/after on coverage can't separate the reward's effect from the workflow fixes, and there are no defined appeal rules or event history to support corrections."}

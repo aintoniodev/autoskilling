@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 7,
+    "c7": 8,
+    "c8": 7,
+    "c9": 9,
+    "c10": 5
+  },
+  "total": 72,
+  "worst_flaw": "The scale rule can credit the reward for an improvement caused by changes in workload, PR complexity, or growing familiarity with the review process because the pilot lacks a concurrent feedback-only comparison."
+}

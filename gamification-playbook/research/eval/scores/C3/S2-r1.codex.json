@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 8,
+    "c5": 7,
+    "c6": 7,
+    "c7": 6,
+    "c8": 4,
+    "c9": 8,
+    "c10": 4
+  },
+  "total": 66,
+  "worst_flaw": "The pilot lacks a comparison that holds workflow fixes and feedback constant, so it cannot isolate the effect of the team reward."
+}

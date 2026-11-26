@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 7,
+    "c4": 7,
+    "c5": 8,
+    "c6": 6,
+    "c7": 8,
+    "c8": 7,
+    "c9": 9,
+    "c10": 5
+  },
+  "total": 73,
+  "worst_flaw": "The before-and-after pilot cannot isolate the effect of the paid hour from changes in workload, PR complexity, or engineers getting used to the new review queue."
+}

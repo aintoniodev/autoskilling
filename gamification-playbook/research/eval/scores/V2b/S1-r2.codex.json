@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 8,
+    "c3": 7,
+    "c4": 7,
+    "c5": 8,
+    "c6": 8,
+    "c7": 8,
+    "c8": 7,
+    "c9": 8,
+    "c10": 7
+  },
+  "total": 78,
+  "worst_flaw": "The pilot needs a stronger safety audit before launch because a technician can earn credit for a complete digital form even when the audit misses skipped physical checks or unreported hazards."
+}

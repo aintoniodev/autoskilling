@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 8,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 9,
+    "c7": 5,
+    "c8": 5,
+    "c9": 8,
+    "c10": 4
+  },
+  "total": 68,
+  "worst_flaw": "The pilot lacks a clinical stop rule for a credible drop in observed hand-hygiene compliance, so the reward can continue while a patient-safety concern is investigated."
+}

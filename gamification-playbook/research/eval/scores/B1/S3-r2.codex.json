@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 5,
+    "c3": 6,
+    "c4": 7,
+    "c5": 6,
+    "c6": 7,
+    "c7": 5,
+    "c8": 6,
+    "c9": 5,
+    "c10": 3
+  },
+  "total": 59,
+  "worst_flaw": "Without a private-feedback-only comparison, the pilot cannot tell whether streaks and badges improve reporting enough to justify the extra pressure they put on nurses."
+}

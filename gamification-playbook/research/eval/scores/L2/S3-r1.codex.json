@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 8,
+    "c3": 5,
+    "c4": 7,
+    "c5": 7,
+    "c6": 8,
+    "c7": 8,
+    "c8": 7,
+    "c9": 9,
+    "c10": 5
+  },
+  "total": 73,
+  "worst_flaw": "Launch blocker: nurses could meet the reward and expansion thresholds by logging mainly during observed sessions, leaving routine kiosk adoption unverified."
+}

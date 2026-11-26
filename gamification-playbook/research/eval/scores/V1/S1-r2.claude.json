@@ -1,0 +1,1 @@
+{"criteria":{"c1":9,"c2":8,"c3":7,"c4":8,"c5":8,"c6":7,"c7":9,"c8":6,"c9":8,"c10":7},"total":77,"worst_flaw":"The design randomises crews but never checks whether a 300-person workforce gives enough crews to detect a 10-point lift, and it leaves out predefined costs, independent shadow validation, versioned policy/event replay and a staffed appeal process with response times."}

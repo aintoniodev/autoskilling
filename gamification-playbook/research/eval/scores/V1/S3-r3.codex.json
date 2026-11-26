@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 8,
+    "c3": 6,
+    "c4": 8,
+    "c5": 7,
+    "c6": 7,
+    "c7": 8,
+    "c8": 7,
+    "c9": 9,
+    "c10": 6
+  },
+  "total": 76,
+  "worst_flaw": "With one comparison ward and no preset minimum audit sample or case-mix adjustment, the scale-up rule can mistake shifts in which hand-hygiene opportunities are observed for a programme effect."
+}

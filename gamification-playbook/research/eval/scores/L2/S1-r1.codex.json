@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 8,
+    "c7": 8,
+    "c8": 7,
+    "c9": 9,
+    "c10": 6
+  },
+  "total": 74,
+  "worst_flaw": "Auditing only credited visits leaves the pilot unable to detect whether technicians start uncredited jobs without completing the required safety checks."
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 8,
+    "c5": 8,
+    "c6": 9,
+    "c7": 8,
+    "c8": 7,
+    "c9": 9,
+    "c10": 6
+  },
+  "total": 77,
+  "worst_flaw": "The rollout decision relies on fixed percentage-point thresholds without accounting for ticket mix or uncertainty across teams, so ordinary variation could be mistaken for a durable improvement."
+}

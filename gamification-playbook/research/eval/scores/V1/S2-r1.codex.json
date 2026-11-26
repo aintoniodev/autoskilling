@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 9,
+    "c6": 7,
+    "c7": 8,
+    "c8": 7,
+    "c9": 9,
+    "c10": 5
+  },
+  "total": 74,
+  "worst_flaw": "The rollout rule relies on a before-and-after comparison that cannot isolate the shared milestone’s effect from private feedback or changes in PR volume and complexity."
+}

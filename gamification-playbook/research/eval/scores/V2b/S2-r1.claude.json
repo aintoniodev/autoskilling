@@ -1,0 +1,1 @@
+{"criteria":{"c1":9,"c2":8,"c3":7,"c4":7,"c5":8,"c6":7,"c7":8,"c8":6,"c9":8,"c10":5},"total":73,"worst_flaw":"The design only compares the pilot with the team's own earlier baseline, so it cannot tell how much the goal messages added beyond the routing fixes and review slots. Its own text admits this, and it still uses the result to decide whether to keep the approach."}

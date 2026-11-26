@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 6,
+    "c6": 7,
+    "c7": 6,
+    "c8": 5,
+    "c9": 8,
+    "c10": 3
+  },
+  "total": 63,
+  "worst_flaw": "The reward has a launch-blocking measurement gap because entries deferred for patient care can fall outside the matching window and ambiguous matches can be excluded without limit."
+}

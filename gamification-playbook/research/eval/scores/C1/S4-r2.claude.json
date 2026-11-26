@@ -1,0 +1,1 @@
+{"criteria":{"c1":8,"c2":8,"c3":6,"c4":7,"c5":7,"c6":7,"c7":6,"c8":4,"c9":8,"c10":3},"total":64,"worst_flaw":"The design has no comparison group or plain-support arm, so it cannot tell how much of any rise in coverage comes from the reward rather than the workflow fixes. Its decision rules rest on uncontrolled before/after numbers."}

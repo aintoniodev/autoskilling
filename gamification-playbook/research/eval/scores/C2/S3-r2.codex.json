@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 5,
+    "c4": 8,
+    "c5": 7,
+    "c6": 8,
+    "c7": 7,
+    "c8": 5,
+    "c9": 9,
+    "c10": 4
+  },
+  "total": 69,
+  "worst_flaw": "The reward should wait until representative shadow scoring confirms that kiosk entries saved at a later break can be reliably matched to individual observed actions."
+}

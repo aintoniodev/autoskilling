@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 7,
+    "c3": 5,
+    "c4": 6,
+    "c5": 7,
+    "c6": 8,
+    "c7": 6,
+    "c8": 5,
+    "c9": 8,
+    "c10": 4
+  },
+  "total": 66,
+  "worst_flaw": "The pilot does not require a concurrent group receiving the same workflow support without the reward, so it cannot isolate the reward’s effect."
+}

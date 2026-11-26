@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 5,
+    "c4": 8,
+    "c5": 7,
+    "c6": 8,
+    "c7": 6,
+    "c8": 5,
+    "c9": 9,
+    "c10": 4
+  },
+  "total": 68,
+  "worst_flaw": "The pilot introduces the reward alongside workflow improvements and private feedback, so its before-and-after comparison cannot show whether the reward adds value."
+}

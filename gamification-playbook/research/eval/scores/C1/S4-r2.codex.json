@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 8,
+    "c5": 7,
+    "c6": 7,
+    "c7": 6,
+    "c8": 5,
+    "c9": 8,
+    "c10": 5
+  },
+  "total": 68,
+  "worst_flaw": "Without a comparison group receiving the same workflow improvements and feedback, the pilot cannot determine whether the paid-time reward improves coverage." 
+}

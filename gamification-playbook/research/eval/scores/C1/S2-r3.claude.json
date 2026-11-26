@@ -1,0 +1,1 @@
+{"criteria":{"c1":9,"c2":8,"c3":7,"c4":8,"c5":7,"c6":7,"c7":6,"c8":4,"c9":8,"c10":4},"total":68,"worst_flaw":"The design has no comparison against plain queue fixes without the reward, and no predefined success, harm or stop thresholds. A before/after change in timeliness therefore cannot show whether the lunch added anything beyond routing, backups and protected review time."}

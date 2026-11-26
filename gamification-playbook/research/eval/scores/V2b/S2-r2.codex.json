@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 5,
+    "c5": 9,
+    "c6": 7,
+    "c7": 7,
+    "c8": 6,
+    "c9": 8,
+    "c10": 5
+  },
+  "total": 69,
+  "worst_flaw": "Without a comparison period or group using routing and private feedback alone, the pilot cannot tell whether shared progress updates improve review response times."
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 6,
+    "c3": 6,
+    "c4": 8,
+    "c5": 7,
+    "c6": 7,
+    "c7": 7,
+    "c8": 5,
+    "c9": 9,
+    "c10": 4
+  },
+  "total": 69,
+  "worst_flaw": "The reward should not launch until the five-minute matching rule is validated, because repeated actions and excluded ambiguous matches could change which wards qualify."
+}

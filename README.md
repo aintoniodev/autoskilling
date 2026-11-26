@@ -27,6 +27,7 @@ document external tools and scripts with enough detail to replicate them.
 | [escritura-b2b-es](escritura-b2b-es/) | Redacta y revisa textos comerciales y técnicos B2B en español de España para dueños de pyme y decisores: ritmo asimétrico, psicología inversa, concreción con anclaje español, cero rayas largas y cero calcos de IA. |
 | [tweet-es](tweet-es/) | Redacta posts de X en español de España con voz propia. Pregunta el contexto con opciones antes de escribir y aprende sola de cada corrección, guardando borrador, versión final y qué cambió en `ejemplos/`. Cifras reales y cero rayas largas. |
 | [deepify](deepify/) | Research an idea or optimization to the best answer: wide first-principles web research, four adversarial debaters, measured experiments for every surviving hypothesis, then an autoresearch loop on the winner. Model-agnostic. |
+| [gamification-playbook](gamification-playbook/) | Design a workplace incentive or gamification programme that people notice and that lasts after prizes stop: seven evidence-graded rules, tested against no-skill baselines on held-out scenarios. |
 | [file-pr](skills/file-pr/) | File a concise PR: check for an existing one, review the diff, follow title conventions, and write the body as one problem sentence + Summary (a visual) / Evidence (before → after) / Merge Danger (door + blast radius). Merges T3's `file-pr` and Matt Pocock's `pr`; see its CREDITS.md. |
 
 ## Install
@@ -46,6 +47,7 @@ npx skills add aintoniodev/autoskilling --skill tweet-es
 npx skills add aintoniodev/autoskilling --skill delegate
 npx skills add aintoniodev/autoskilling --skill file-pr
 npx skills add aintoniodev/autoskilling --skill deepify
+npx skills add aintoniodev/autoskilling --skill gamification-playbook
 ```
 
 `swarmforge/` is an **Agent Plugin 1.0.0** package (not a plain skill): install it

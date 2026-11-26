@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 7,
+    "c7": 7,
+    "c8": 6,
+    "c9": 9,
+    "c10": 8
+  },
+  "total": 74,
+  "worst_flaw": "The 30% target ignores differences in article availability and review turnaround, while rounding gives an agent with one eligible ticket a 100% personal target."
+}

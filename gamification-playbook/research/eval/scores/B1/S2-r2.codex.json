@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 6,
+    "c3": 5,
+    "c4": 7,
+    "c5": 7,
+    "c6": 7,
+    "c7": 5,
+    "c8": 6,
+    "c9": 6,
+    "c10": 3
+  },
+  "total": 61,
+  "worst_flaw": "Without a comparison group receiving the same routing, protected review time, and private feedback but no incentives, the pilot cannot tell whether the incentives add value."
+}

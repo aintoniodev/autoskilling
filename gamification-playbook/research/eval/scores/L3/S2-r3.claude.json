@@ -1,0 +1,1 @@
+{"criteria":{"c1":8,"c2":6,"c3":6,"c4":6,"c5":7,"c6":5,"c7":8,"c8":5,"c9":7,"c10":4},"total":62,"worst_flaw":"The design has no concurrent comparison or way to separate the effect of the routing fixes and private feedback from the effect of the reward, so a single before/after baseline with a reward-free follow-up can't show what added value."}

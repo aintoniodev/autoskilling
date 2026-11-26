@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 7,
+    "c7": 8,
+    "c8": 6,
+    "c9": 9,
+    "c10": 5
+  },
+  "total": 72,
+  "worst_flaw": "Reward launch should wait until independent shadow scoring verifies that observers can reliably match hand-hygiene actions to kiosk entries across wards and shifts, because those matches determine payouts."
+}

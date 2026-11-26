@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 6,
+    "c3": 5,
+    "c4": 7,
+    "c5": 6,
+    "c6": 5,
+    "c7": 4,
+    "c8": 7,
+    "c9": 5,
+    "c10": 3
+  },
+  "total": 57,
+  "worst_flaw": "Not launchable as written: managers can see every agent’s activity even if the agent opts out of public rankings, and the policy does not prohibit using that data for performance reviews or discipline."
+}

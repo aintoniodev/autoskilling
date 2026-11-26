@@ -1,0 +1,1 @@
+{"criteria":{"c1":9,"c2":7,"c3":7,"c4":8,"c5":7,"c6":6,"c7":8,"c8":6,"c9":7,"c10":5},"total":70,"worst_flaw":"The design judges success with a single-team before-and-after comparison. It never isolates what the reward adds beyond the routing and feedback changes, and it does not handle seasonality or case mix, so it cannot show incremental value."}

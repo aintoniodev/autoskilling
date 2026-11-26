@@ -1,0 +1,1 @@
+{"criteria": {"c1": 9, "c2": 8, "c3": 7, "c4": 8, "c5": 6, "c6": 7, "c7": 6, "c8": 5, "c9": 8, "c10": 4}, "total": 68, "worst_flaw": "The evaluation is a four-week before/after comparison that launches the workflow fixes and the team reward together, so it cannot show whether the reward added anything beyond plain queue support, and it sets no uncertainty or cost thresholds."}

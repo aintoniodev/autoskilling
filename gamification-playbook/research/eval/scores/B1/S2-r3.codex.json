@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 6,
+    "c3": 7,
+    "c4": 7,
+    "c5": 6,
+    "c6": 7,
+    "c7": 6,
+    "c8": 5,
+    "c9": 5,
+    "c10": 3
+  },
+  "total": 62,
+  "worst_flaw": "Not launchable as written: the design never specifies how the nightly scorer determines whether a response is substantive, so the 90% target cannot reliably measure whether authors received useful reviews."
+}

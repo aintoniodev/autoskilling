@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 6,
+    "c3": 5,
+    "c4": 7,
+    "c5": 8,
+    "c6": 8,
+    "c7": 8,
+    "c8": 5,
+    "c9": 9,
+    "c10": 5
+  },
+  "total": 70,
+  "worst_flaw": "Launch should wait until the hospital validates that observers can reliably match hygiene actions to kiosk entries without collecting identifiers or disrupting care."
+}

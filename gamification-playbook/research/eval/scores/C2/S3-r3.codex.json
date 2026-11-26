@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 8,
+    "c5": 7,
+    "c6": 8,
+    "c7": 6,
+    "c8": 6,
+    "c9": 8,
+    "c10": 5
+  },
+  "total": 70,
+  "worst_flaw": "A credible report that kiosk logging delayed patient care triggers a reward hold, with no rule requiring the ward to suspend logging while Infection Prevention investigates."
+}

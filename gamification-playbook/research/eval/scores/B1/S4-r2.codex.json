@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 5,
+    "c3": 5,
+    "c4": 8,
+    "c5": 6,
+    "c6": 6,
+    "c7": 5,
+    "c8": 7,
+    "c9": 7,
+    "c10": 4
+  },
+  "total": 63,
+  "worst_flaw": "Without a comparison group that gets the same workflow support and private feedback but no rewards, the pilot cannot tell whether the incentives add value."
+}

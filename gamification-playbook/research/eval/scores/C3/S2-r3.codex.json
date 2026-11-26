@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 8,
+    "c7": 6,
+    "c8": 5,
+    "c9": 9,
+    "c10": 4
+  },
+  "total": 70,
+  "worst_flaw": "The pilot introduces the team reward alongside workflow changes and private feedback, so it cannot estimate whether the reward improves review turnaround beyond those supports alone."
+}

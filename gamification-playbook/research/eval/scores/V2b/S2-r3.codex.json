@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 7,
+    "c7": 8,
+    "c8": 5,
+    "c9": 10,
+    "c10": 5
+  },
+  "total": 72,
+  "worst_flaw": "The expansion decision relies on a historical baseline that cannot isolate the effect of reminders and shared progress from routing fixes or changes in PR mix."
+}

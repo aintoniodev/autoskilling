@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 5,
+    "c3": 6,
+    "c4": 7,
+    "c5": 6,
+    "c6": 6,
+    "c7": 5,
+    "c8": 5,
+    "c9": 7,
+    "c10": 4
+  },
+  "total": 59,
+  "worst_flaw": "Not launchable as written: the adoption metric counts on-time shift closures without checking whether the records capture enough actual hand-hygiene moments to be usable."
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 8,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 9,
+    "c7": 8,
+    "c8": 7,
+    "c9": 9,
+    "c10": 7
+  },
+  "total": 79,
+  "worst_flaw": "The fixed 20-point crew target ignores baseline headroom, job volume, and case mix, giving crews unequal chances to earn the reward for comparable improvements in practice."
+}
