@@ -93,7 +93,7 @@ Variant under review: SKILL.md (C15).
 - Sol 9/10. No blocking issues; the launch interval is a near-tie, not proven parity. Optional test: stagger only across teams that don't share the work.
 - DeepSeek 9/10. No blocking issues. Launch is a four-level score; the gap comes from B0's first batch. Nit: add a Deci counter-row for the reward examples. Optional test: team progress is information only.
 - GLM 9/10. No blocking issues; ship C15. No launch edit has a good prior.
-- Neon: pending (quota).
+- Neon 9/10 (the round-1 task resumed after its quota reset and reviewed the current round-5 brief). No blocking issues; launch is a tie (B0's own batches span 5.7 points; holistic launch sits on coarse tiers). Optional test: set the reward milestone from each group's baseline.
 
 ### Round 5 decision
 Ship C15. Added the evidence row for the reward examples, with the Deci counterweight. The optional tests are left as future work, not applied (scope).
