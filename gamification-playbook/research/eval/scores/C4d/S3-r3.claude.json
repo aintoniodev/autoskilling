@@ -1,0 +1,1 @@
+{"criteria":{"c1":6,"c2":8,"c3":5,"c4":7,"c5":7,"c6":8,"c7":8,"c8":5,"c9":7,"c10":6},"total":67,"worst_flaw":"The primary kiosk-use metric (shifts with at least one saved entry) can't tell real logging of hand-hygiene moments from token entries, so it doesn't measure the behaviour the hospital wants, and nothing reconciles it with the opportunity-based audit data."}

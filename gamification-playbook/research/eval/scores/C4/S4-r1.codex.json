@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 8,
+    "c5": 8,
+    "c6": 7,
+    "c7": 6,
+    "c8": 6,
+    "c9": 8,
+    "c10": 7
+  },
+  "total": 72,
+  "worst_flaw": "The reward is not launch-ready because the design does not specify how 10 weekly audits will yield a reliable quality-adjusted score for each team's payout."
+}

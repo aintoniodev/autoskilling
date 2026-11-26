@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 5,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 8,
+    "c7": 6,
+    "c8": 5,
+    "c9": 8,
+    "c10": 6
+  },
+  "total": 65,
+  "worst_flaw": "The design uses observed hand-hygiene compliance as its sole success metric, leaving the hospital unable to tell whether nurses reliably log eligible moments in the kiosk."
+}

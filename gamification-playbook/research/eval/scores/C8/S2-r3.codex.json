@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 8,
+    "c3": 7,
+    "c4": 7,
+    "c5": 8,
+    "c6": 8,
+    "c7": 6,
+    "c8": 6,
+    "c9": 8,
+    "c10": 6
+  },
+  "total": 73,
+  "worst_flaw": "The pilot has no decision rule for whether the paid-time-off reward earns its cost, and differences in case mix or spillover between rotations could distort the estimated benefit."
+}

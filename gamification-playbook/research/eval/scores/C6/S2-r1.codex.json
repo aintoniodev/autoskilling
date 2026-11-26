@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 7,
+    "c7": 7,
+    "c8": 6,
+    "c9": 7,
+    "c10": 6
+  },
+  "total": 70,
+  "worst_flaw": "The pilot sets no decision rule for whether paid time off improves review timeliness enough to justify its cost and any quality trade-offs over queue fixes and private feedback alone."
+}

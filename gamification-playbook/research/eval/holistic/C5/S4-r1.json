@@ -1,0 +1,1 @@
+{"launch": 62, "noticed": 55, "lasting": 55, "reason": "The design is rigorous on quality, verification and guardrails, but it is heavy to run for 60 agents (editor sampling, staggered teams, counting rules), and a one-hour team reward with a 30% milestone is modest and may be too weak to move behaviour well beyond the workflow fixes."}

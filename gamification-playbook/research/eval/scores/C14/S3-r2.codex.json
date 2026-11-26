@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 8,
+    "c5": 8,
+    "c6": 9,
+    "c7": 8,
+    "c8": 5,
+    "c9": 7,
+    "c10": 6
+  },
+  "total": 73,
+  "worst_flaw": "The kiosk adoption measure is a launch blocker because it excludes actions whose logging observers cannot see, so differences in kiosk visibility or delayed entry can drive keep-or-drop decisions even when actual adoption is unchanged."
+}

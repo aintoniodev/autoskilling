@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 7,
+    "c3": 6,
+    "c4": 8,
+    "c5": 7,
+    "c6": 8,
+    "c7": 7,
+    "c8": 5,
+    "c9": 6,
+    "c10": 6
+  },
+  "total": 68,
+  "worst_flaw": "The design is not launchable as written because duplicate kiosk entries can offset missed logs and satisfy the rollout threshold without demonstrating reliable adoption."
+}

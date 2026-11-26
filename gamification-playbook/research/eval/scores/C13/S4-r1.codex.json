@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 7,
+    "c3": 4,
+    "c4": 7,
+    "c5": 7,
+    "c6": 8,
+    "c7": 6,
+    "c8": 6,
+    "c9": 8,
+    "c10": 6
+  },
+  "total": 67,
+  "worst_flaw": "The uniform 40% reward threshold uses all resolved tickets without checking which tickets can usefully and safely receive an article, so case mix can determine both who earns the reward and whether the pilot appears to work."
+}

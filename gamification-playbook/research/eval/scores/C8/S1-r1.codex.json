@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 9,
+    "c7": 6,
+    "c8": 5,
+    "c9": 7,
+    "c10": 6
+  },
+  "total": 71,
+  "worst_flaw": "The safety audit uses job records alone, so technicians could earn the reward for timely submissions while skipping physical checks or leaving hazards undocumented."
+}

@@ -1,0 +1,1 @@
+{"criteria":{"c1":9,"c2":8,"c3":7,"c4":8,"c5":8,"c6":8,"c7":7,"c8":6,"c9":8,"c10":8},"total":77,"worst_flaw":"The audit trail is thin: there are no replayable event or policy versions, no independent shadow validation of the tally before payout, and no defined permissions or staffed timelines for appeals beyond a dispatch administrator correcting counts."}

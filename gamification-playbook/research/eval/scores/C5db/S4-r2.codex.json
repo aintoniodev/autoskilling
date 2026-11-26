@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 7,
+    "c3": 5,
+    "c4": 7,
+    "c5": 7,
+    "c6": 7,
+    "c7": 7,
+    "c8": 5,
+    "c9": 7,
+    "c10": 4
+  },
+  "total": 64,
+  "worst_flaw": "The payout denominator includes tickets that cannot safely or usefully be documented, making the 40% target unfair across case mixes and creating pressure to attach unsuitable articles."
+}

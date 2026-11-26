@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 7,
+    "c3": 5,
+    "c4": 8,
+    "c5": 8,
+    "c6": 7,
+    "c7": 6,
+    "c8": 6,
+    "c9": 7,
+    "c10": 7
+  },
+  "total": 71,
+  "worst_flaw": "The same 60% threshold determines paid time off for every team without evidence that teams with different ticket volumes, case mixes, and knowledge-base gaps have a comparable chance of reaching it."
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 5,
+    "c4": 7,
+    "c5": 7,
+    "c6": 8,
+    "c7": 6,
+    "c8": 5,
+    "c9": 8,
+    "c10": 5
+  },
+  "total": 67,
+  "worst_flaw": "The pilot makes article search the default during each reward window, so the comparison as specified cannot reliably isolate the prize’s effect from the workflow change."
+}

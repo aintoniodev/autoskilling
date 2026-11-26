@@ -1,0 +1,1 @@
+{"criteria": {"c1": 8, "c2": 7, "c3": 5, "c4": 8, "c5": 7, "c6": 5, "c7": 6, "c8": 4, "c9": 7, "c10": 3}, "total": 60, "worst_flaw": "There is no comparison group or plain-support arm, so the design cannot separate the incentive's effect from the workflow changes or from case mix. It only defines pause triggers and never sets decision criteria tied to cost or sample size."}

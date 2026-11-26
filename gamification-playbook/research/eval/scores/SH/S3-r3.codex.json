@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 7,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 9,
+    "c7": 7,
+    "c8": 5,
+    "c9": 8,
+    "c10": 6
+  },
+  "total": 70,
+  "worst_flaw": "The pilot cannot determine how often nurses log eligible hand-hygiene moments or whether those logs help wards solve workflow problems, so it lacks a sound basis for keeping the kiosk."
+}

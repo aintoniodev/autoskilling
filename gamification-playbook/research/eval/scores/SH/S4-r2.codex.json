@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 8,
+    "c7": 6,
+    "c8": 5,
+    "c9": 9,
+    "c10": 6
+  },
+  "total": 70,
+  "worst_flaw": "The staggered pilot leaves team assignment and the timing of workflow changes uncontrolled, making it hard to isolate the reward’s effect on article coverage."
+}

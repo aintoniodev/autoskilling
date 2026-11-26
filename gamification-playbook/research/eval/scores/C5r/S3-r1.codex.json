@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 6,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 8,
+    "c7": 8,
+    "c8": 5,
+    "c9": 7,
+    "c10": 6
+  },
+  "total": 67,
+  "worst_flaw": "The pilot cannot tell whether nurses reliably log eligible hand-hygiene moments because kiosk counts lack a matched opportunity denominator and observer audits measure hand-hygiene compliance."
+}

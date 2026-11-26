@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 5,
+    "c4": 6,
+    "c5": 8,
+    "c6": 7,
+    "c7": 7,
+    "c8": 6,
+    "c9": 8,
+    "c10": 7
+  },
+  "total": 70,
+  "worst_flaw": "The reward pilot is not launchable because its audit relies on existing records for credited jobs only, leaving it unable to detect undocumented shortcuts or unsafe starts on jobs that earned no credit."
+}

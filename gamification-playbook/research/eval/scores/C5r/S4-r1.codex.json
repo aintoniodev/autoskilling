@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 8,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 8,
+    "c7": 6,
+    "c8": 6,
+    "c9": 7,
+    "c10": 7
+  },
+  "total": 72,
+  "worst_flaw": "Customer-data exposure is a launch blocker because detection relies on a small post-publication sample and the only immediate action specified is to pause reward credit."
+}

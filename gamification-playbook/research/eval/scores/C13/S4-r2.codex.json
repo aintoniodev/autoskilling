@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 5,
+    "c4": 8,
+    "c5": 7,
+    "c6": 5,
+    "c7": 6,
+    "c8": 6,
+    "c9": 8,
+    "c10": 7
+  },
+  "total": 68,
+  "worst_flaw": "The fixed 60% threshold for paid time off ignores differences in case mix and article availability, so equally diligent teams can face materially different odds of earning the reward."
+}

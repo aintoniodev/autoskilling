@@ -1,0 +1,1 @@
+{"criteria":{"c1":9,"c2":8,"c3":7,"c4":7,"c5":8,"c6":7,"c7":7,"c8":6,"c9":8,"c10":4},"total":71,"worst_flaw":"The design has no comparison group or isolation of the reward's incremental value over plain support. Barrier fixes, training and the reward all start together, so any adoption gain cannot be attributed and there is no predefined decision rule on cost or harm."}

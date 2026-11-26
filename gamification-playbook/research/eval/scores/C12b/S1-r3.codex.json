@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 8,
+    "c3": 6,
+    "c4": 9,
+    "c5": 8,
+    "c6": 7,
+    "c7": 6,
+    "c8": 6,
+    "c9": 8,
+    "c10": 7
+  },
+  "total": 75,
+  "worst_flaw": "When the app is unavailable, jobs completed safely using the approved paper fallback still lower the crew’s digital completion rate, creating peer pressure to avoid the fallback."
+}

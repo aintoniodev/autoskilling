@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 7,
+    "c7": 6,
+    "c8": 6,
+    "c9": 8,
+    "c10": 6
+  },
+  "total": 70,
+  "worst_flaw": "The staggered comparison cannot reliably isolate the reward’s effect because it does not account for differences in PR complexity, reviewer workload, or spillover between the two groups."
+}

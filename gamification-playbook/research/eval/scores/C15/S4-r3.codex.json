@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 5,
+    "c4": 8,
+    "c5": 7,
+    "c6": 6,
+    "c7": 6,
+    "c8": 6,
+    "c9": 9,
+    "c10": 6
+  },
+  "total": 69,
+  "worst_flaw": "The rollout uses absolute coverage thresholds and never defines how much improvement over plain feedback would justify the reward’s cost."
+}

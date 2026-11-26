@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 6,
+    "c3": 5,
+    "c4": 7,
+    "c5": 8,
+    "c6": 6,
+    "c7": 6,
+    "c8": 5,
+    "c9": 6,
+    "c10": 6
+  },
+  "total": 63,
+  "worst_flaw": "The primary decision metric is a launch blocker because teams can improve their seven-day resolution rate by leaving difficult tickets open, and the pilot measures neither backlog nor time to resolution."
+}

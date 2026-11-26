@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 8,
+    "c3": 5,
+    "c4": 7,
+    "c5": 6,
+    "c6": 7,
+    "c7": 6,
+    "c8": 6,
+    "c9": 9,
+    "c10": 6
+  },
+  "total": 69,
+  "worst_flaw": "The paid afternoon hinges on an 80% threshold with no demonstrated feasibility, no rule for groups with few or zero eligible PRs, and no adjustment for review complexity."
+}

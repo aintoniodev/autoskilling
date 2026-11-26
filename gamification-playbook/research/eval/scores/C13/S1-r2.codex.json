@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 5,
+    "c4": 7,
+    "c5": 8,
+    "c6": 6,
+    "c7": 6,
+    "c8": 6,
+    "c9": 7,
+    "c10": 6
+  },
+  "total": 67,
+  "worst_flaw": "The early reward group gets the checklist prompt and prefilled fields during the comparison window, so the trial cannot isolate the reward’s effect from those workflow improvements."
+}

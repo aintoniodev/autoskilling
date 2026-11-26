@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 8,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 8,
+    "c7": 8,
+    "c8": 7,
+    "c9": 8,
+    "c10": 5
+  },
+  "total": 74,
+  "worst_flaw": "An ignored hazard can fall within the audit’s tolerated failure rate, allowing the payout and pilot to proceed without an immediate safety review."
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 7,
+    "c3": 6,
+    "c4": 6,
+    "c5": 7,
+    "c6": 9,
+    "c7": 6,
+    "c8": 5,
+    "c9": 8,
+    "c10": 7
+  },
+  "total": 71,
+  "worst_flaw": "Do not launch the reward as written: the record checks cannot detect plausible fabricated entries or whether nurses stop logging after the first credited entry, and the monthly hygiene audit cannot reliably catch resulting harm before payout."
+}

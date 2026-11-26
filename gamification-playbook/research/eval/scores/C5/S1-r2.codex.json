@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 8,
+    "c3": 6,
+    "c4": 8,
+    "c5": 7,
+    "c6": 7,
+    "c7": 8,
+    "c8": 6,
+    "c9": 9,
+    "c10": 7
+  },
+  "total": 76,
+  "worst_flaw": "Jobs checked on paper during app or device outages still count toward the personal target but earn no credit, so technicians can lose the reward for using the approved safety fallback."
+}

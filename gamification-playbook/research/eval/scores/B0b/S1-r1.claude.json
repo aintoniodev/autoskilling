@@ -1,0 +1,1 @@
+{"criteria": {"c1": 8, "c2": 7, "c3": 5, "c4": 7, "c5": 7, "c6": 6, "c7": 8, "c8": 6, "c9": 6, "c10": 3}, "total": 63, "worst_flaw": "The design judges success with a single before/after company-wide comparison that has no control group and no costs or harms set in advance, so it cannot separate the reward's effect from paid time, app fixes and training introduced alongside it."}

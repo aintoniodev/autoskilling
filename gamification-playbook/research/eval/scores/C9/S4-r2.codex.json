@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 6,
+    "c3": 6,
+    "c4": 8,
+    "c5": 7,
+    "c6": 7,
+    "c7": 6,
+    "c8": 5,
+    "c9": 9,
+    "c10": 7
+  },
+  "total": 70,
+  "worst_flaw": "Launch should wait until the design specifies how QA findings affect paid-time-off qualification, since irrelevant links and invalid exceptions could help a team reach its target while failures stay below the pause threshold."
+}

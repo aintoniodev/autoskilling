@@ -31,14 +31,15 @@ workforce, protected or paid time, and simplicity.
 
 ## Results
 
-See `loop.tsv` for every row. The main ones:
+See `loop.tsv` for every row. The first rows used single batches; the later rows are pooled.
 
-| Variant | Rubric | Launch | Noticed | Lasting | Words |
-|---|---|---|---|---|---|
-| B0 no skill | 69.9 | 79.7 | 56.0 | 52.4 | 722 |
-| B1 original case principles | 62.6 | 71.2 | 52.8 | 40.3 | 725 |
-| V1 full evidence workflow | **74.5** | 65.6 | 46.9 | 35.3 | 896 |
-| C2 shipped skill | 68.3 | 77.0 | **60.0** | **56.0** | 675 |
+| Variant | Rubric | Launch | Noticed | Lasting |
+|---|---|---|---|---|
+| B0 no skill, pooled n=36 | 65.6 | **76.5** | 56.9 | 48.1 |
+| B1 original case principles | 62.6 | 71.2 | 52.8 | 40.3 |
+| V1 full evidence workflow | **74.5** | 65.6 | 46.9 | 35.3 |
+| C4, pooled n=60 | 70.4 | 76.0 | 59.0 | **58.0** |
+| C15 shipped, pooled n=24 | 70.2 | 74.6 | **62.3** | 55.8 |
 
 ## What each change taught
 
@@ -51,3 +52,10 @@ See `loop.tsv` for every row. The main ones:
 - **Co-design and the minimum checks** (C2 vs C1) raised the rubric by 3 points and noticed
   by 3 without lengthening designs much.
 - **Telling the designer to cut checks and lower goals** (C3) made every score worse.
+- **One batch lies.** C4 and C5 each looked like large wins on their first batch and shrank
+  on re-runs. From C4 on, every candidate ran twice and was compared with three pooled
+  no-skill batches using a bootstrap interval (`eval/pool.py`).
+- **Bundles hide regressions** (C12). Test one edit at a time.
+- **An earned, talked-about reward lifts noticing** (C4 → C5: +2.6 noticed pooled).
+- **Most launch-aimed edits cost rubric or lasting** (C6–C11, C13, C14). None moved launch
+  outside the noise.

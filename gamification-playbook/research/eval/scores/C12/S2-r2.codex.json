@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 8,
+    "c7": 7,
+    "c8": 5,
+    "c9": 7,
+    "c10": 6
+  },
+  "total": 69,
+  "worst_flaw": "With one rotation per condition and no checks for differences in PR complexity or reviewer capacity, the pilot cannot reliably determine whether the lunch improved review turnaround."
+}

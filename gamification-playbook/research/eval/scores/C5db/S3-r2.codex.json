@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 6,
+    "c2": 6,
+    "c3": 5,
+    "c4": 7,
+    "c5": 8,
+    "c6": 8,
+    "c7": 6,
+    "c8": 5,
+    "c9": 7,
+    "c10": 6
+  },
+  "total": 64,
+  "worst_flaw": "The pilot cannot support a kiosk rollout decision because the reward and exit rules measure clinical compliance while aggregate kiosk totals cannot establish what share of eligible moments nurses recorded correctly in the new system."
+}

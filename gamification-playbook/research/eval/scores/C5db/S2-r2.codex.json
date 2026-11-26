@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 8,
+    "c5": 7,
+    "c6": 7,
+    "c7": 6,
+    "c8": 6,
+    "c9": 9,
+    "c10": 5
+  },
+  "total": 70,
+  "worst_flaw": "The two-week comparison between groups that share reviewers does too little to separate the paid half-day’s effect from differences in queue volume, PR complexity, and cross-group help."
+}

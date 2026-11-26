@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 7,
+    "c3": 6,
+    "c4": 6,
+    "c5": 8,
+    "c6": 8,
+    "c7": 7,
+    "c8": 5,
+    "c9": 8,
+    "c10": 7
+  },
+  "total": 70,
+  "worst_flaw": "The reward pilot is blocked until it can validate actual work-start times, because reviewing the same job records used to award credit can miss technicians who start work before completing the checklist."
+}

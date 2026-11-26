@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 8,
+    "c7": 7,
+    "c8": 7,
+    "c9": 7,
+    "c10": 6
+  },
+  "total": 73,
+  "worst_flaw": "The reward should stay on hold because the quality gate relies on checklist records and has no independent way to detect hazards technicians miss or falsely mark as cleared."
+}

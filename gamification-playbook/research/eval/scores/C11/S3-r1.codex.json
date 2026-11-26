@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 7,
+    "c2": 7,
+    "c3": 5,
+    "c4": 7,
+    "c5": 7,
+    "c6": 8,
+    "c7": 6,
+    "c8": 5,
+    "c9": 8,
+    "c10": 4
+  },
+  "total": 64,
+  "worst_flaw": "The meal depends on a single monthly observer audit, and without a plain-feedback comparison or a way to account for sampling uncertainty and case mix, the pilot cannot establish whether the reward improved hand hygiene."
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 6,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 9,
+    "c7": 7,
+    "c8": 5,
+    "c9": 8,
+    "c10": 6
+  },
+  "total": 68,
+  "worst_flaw": "The logging pilot is not launch-ready because counting shifts with at least one saved entry cannot establish what share of eligible hand-hygiene moments nurses record."
+}

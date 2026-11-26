@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 5,
+    "c4": 6,
+    "c5": 7,
+    "c6": 7,
+    "c7": 7,
+    "c8": 6,
+    "c9": 9,
+    "c10": 4
+  },
+  "total": 67,
+  "worst_flaw": "The pilot lacks a stop rule for backfilled safety checks or pressure to clear unsafe jobs, leaving a safety risk that should block launch."
+}

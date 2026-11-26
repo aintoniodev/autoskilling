@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 8,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 8,
+    "c7": 7,
+    "c8": 6,
+    "c9": 8,
+    "c10": 7
+  },
+  "total": 74,
+  "worst_flaw": "Launch should wait until the safety audit can independently detect unreported hazards and verify actual job-start times, because both can affect whether crews earn paid time."
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 8,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 8,
+    "c7": 7,
+    "c8": 7,
+    "c9": 8,
+    "c10": 6
+  },
+  "total": 74,
+  "worst_flaw": "Only reward-eligible groups get quality audits, so the pilot cannot separate the effect of the reward from extra oversight or tell whether faster reviews come at the expense of quality."
+}

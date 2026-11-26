@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 6,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 6,
+    "c7": 5,
+    "c8": 5,
+    "c9": 5,
+    "c10": 4
+  },
+  "total": 60,
+  "worst_flaw": "The payout metric can overstate verified coverage because QA checks only a sample of exemptions and the formula leaves wrongly exempted tickets outside the denominator unless QA catches them individually."
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 5,
+    "c4": 7,
+    "c5": 7,
+    "c6": 6,
+    "c7": 6,
+    "c8": 6,
+    "c9": 8,
+    "c10": 3
+  },
+  "total": 64,
+  "worst_flaw": "The planned comparison cannot isolate the reward’s effect because the four-week waves overlap for only one week and both groups receive rewards during that week."
+}

@@ -1,0 +1,1 @@
+{"criteria":{"c1":9,"c2":7,"c3":7,"c4":7,"c5":7,"c6":7,"c7":8,"c8":6,"c9":8,"c10":5},"total":71,"worst_flaw":"The two-rotation reward comparison has only two clusters, is contaminated by cross-rotation reviewing, and defines no prior outcome threshold, cost or harm decision, so it cannot isolate how much the reward adds over plain workflow support."}

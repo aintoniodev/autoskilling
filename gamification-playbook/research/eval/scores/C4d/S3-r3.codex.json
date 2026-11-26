@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 7,
+    "c3": 5,
+    "c4": 8,
+    "c5": 8,
+    "c6": 9,
+    "c7": 7,
+    "c8": 5,
+    "c9": 7,
+    "c10": 7
+  },
+  "total": 71,
+  "worst_flaw": "The launch decision gives a shift full credit for one saved entry, so the pilot cannot establish whether nurses reliably log eligible hand-hygiene moments."
+}

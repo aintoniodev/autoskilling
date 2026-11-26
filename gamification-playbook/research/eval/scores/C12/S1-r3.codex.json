@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 7,
+    "c3": 6,
+    "c4": 8,
+    "c5": 7,
+    "c6": 8,
+    "c7": 8,
+    "c8": 6,
+    "c9": 10,
+    "c10": 7
+  },
+  "total": 77,
+  "worst_flaw": "The pilot sets a five-percentage-point safety improvement as its threshold for keeping the reward without establishing whether the existing QA sample can reliably detect a gain that small."
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 8,
+    "c3": 6,
+    "c4": 8,
+    "c5": 7,
+    "c6": 8,
+    "c7": 8,
+    "c8": 5,
+    "c9": 9,
+    "c10": 7
+  },
+  "total": 75,
+  "worst_flaw": "The reward is not launchable as written because the dry run specifies neither how observers will verify that exactly one accurate kiosk entry matches a given hygiene action without identifying nurses or interrupting care, nor how reliable that match must be."
+}

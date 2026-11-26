@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 5,
+    "c4": 7,
+    "c5": 7,
+    "c6": 6,
+    "c7": 6,
+    "c8": 5,
+    "c9": 8,
+    "c10": 7
+  },
+  "total": 67,
+  "worst_flaw": "The fixed 60% reward threshold counts tickets with no safe article in the denominator, so teams can differ in their chance of earning paid time off purely because of case mix."
+}

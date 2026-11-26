@@ -1,0 +1,1 @@
+{"criteria": {"c1": 5, "c2": 6, "c3": 4, "c4": 5, "c5": 7, "c6": 3, "c7": 7, "c8": 3, "c9": 6, "c10": 4}, "total": 50, "worst_flaw": "The design never defines which hand-hygiene moments nurses should log or how kiosk entries reconcile with observed opportunities, so the logging behaviour and its link to audited compliance remain unspecified and unvalidated."}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 8,
+    "c7": 7,
+    "c8": 5,
+    "c9": 8,
+    "c10": 6
+  },
+  "total": 70,
+  "worst_flaw": "The reward is not launchable because false entries can offset missed hygiene actions within the same category and produce a passing audit result."
+}

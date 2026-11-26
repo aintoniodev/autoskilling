@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 7,
+    "c7": 6,
+    "c8": 6,
+    "c9": 8,
+    "c10": 6
+  },
+  "total": 69,
+  "worst_flaw": "The reward is not launchable until a representative shadow audit verifies one-to-one matching, because distinct hand-hygiene opportunities can share the same recorded location, timestamp, and moment type."
+}

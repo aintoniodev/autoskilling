@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 7,
+    "c3": 5,
+    "c4": 7,
+    "c5": 8,
+    "c6": 7,
+    "c7": 7,
+    "c8": 6,
+    "c9": 8,
+    "c10": 7
+  },
+  "total": 72,
+  "worst_flaw": "The routine safety audit samples only credited jobs, so technicians starting work without a checklist can escape review unless an incident brings those jobs to light."
+}

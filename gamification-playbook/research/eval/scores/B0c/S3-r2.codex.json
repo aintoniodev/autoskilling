@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 5,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 7,
+    "c7": 8,
+    "c8": 5,
+    "c9": 5,
+    "c10": 3
+  },
+  "total": 62,
+  "worst_flaw": "Launch blocker: The design sets no acceptable false-match rate for the ward, category, and time matching that determines reward eligibility."
+}

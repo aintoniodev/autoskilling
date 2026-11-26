@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 8,
+    "c3": 6,
+    "c4": 8,
+    "c5": 8,
+    "c6": 7,
+    "c7": 6,
+    "c8": 6,
+    "c9": 9,
+    "c10": 6
+  },
+  "total": 74,
+  "worst_flaw": "The payout threshold does not account for case mix or article approval delays, so teams can miss the reward despite doing equally good work."
+}

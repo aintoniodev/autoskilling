@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 8,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 8,
+    "c7": 7,
+    "c8": 5,
+    "c9": 7,
+    "c10": 7
+  },
+  "total": 72,
+  "worst_flaw": "The rollout rule can make the digital workflow standard based on adoption alone, without verifying that technicians still catch critical hazards after rewards end."
+}

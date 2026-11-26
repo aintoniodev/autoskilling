@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 8,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 8,
+    "c7": 7,
+    "c8": 6,
+    "c9": 8,
+    "c10": 6
+  },
+  "total": 72,
+  "worst_flaw": "The reward is not ready to launch because the pilot never validates that its event-based score can distinguish useful reviews from rubber stamps, so token approvals could trigger a payout."
+}

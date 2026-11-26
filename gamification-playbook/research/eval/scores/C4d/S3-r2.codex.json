@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 9,
+    "c7": 7,
+    "c8": 5,
+    "c9": 8,
+    "c10": 7
+  },
+  "total": 74,
+  "worst_flaw": "A single audit of 15–20 completed actions can decide whether the workflow is kept or dropped, even when the result is driven by sampling variation or saves that observers could not verify."
+}

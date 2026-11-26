@@ -1,0 +1,1 @@
+{"criteria": {"c1": 8, "c2": 7, "c3": 6, "c4": 8, "c5": 7, "c6": 7, "c7": 8, "c8": 5, "c9": 8, "c10": 6}, "total": 70, "worst_flaw": "The decision test depends on a few paired teams over only two weeks, with no sample-size, uncertainty or spillover handling, and the scoring has no replayable event or policy versions or shadow validation."}

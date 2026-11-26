@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 8,
+    "c3": 5,
+    "c4": 7,
+    "c5": 8,
+    "c6": 8,
+    "c7": 6,
+    "c8": 5,
+    "c9": 6,
+    "c10": 6
+  },
+  "total": 67,
+  "worst_flaw": "Launch should wait for a valid adoption measure because logs per occupied bed-day can rise even as nurses log a smaller share of eligible hand-hygiene moments, yet that rate drives the decision to keep the kiosk as the default."
+}

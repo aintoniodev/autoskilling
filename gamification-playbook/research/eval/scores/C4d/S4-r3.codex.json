@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 7,
+    "c3": 5,
+    "c4": 8,
+    "c5": 7,
+    "c6": 6,
+    "c7": 6,
+    "c8": 6,
+    "c9": 8,
+    "c10": 6
+  },
+  "total": 67,
+  "worst_flaw": "The reward threshold includes tickets where an article would be inappropriate, making meal eligibility depend partly on case mix and creating pressure to attach unsuitable links."
+}

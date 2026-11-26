@@ -1,0 +1,1 @@
+{"criteria":{"c1":8,"c2":8,"c3":7,"c4":7,"c5":7,"c6":7,"c7":8,"c8":5,"c9":7,"c10":6},"total":70,"worst_flaw":"The audit design is too thin: no replayable event and policy versioning or independent shadow validation of the GitHub-derived metric, and only five sampled PRs a week with a two-in-ten pause trigger, so quality checks will have low power at this team's volume."}

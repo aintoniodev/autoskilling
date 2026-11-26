@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 8,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 8,
+    "c7": 6,
+    "c8": 6,
+    "c9": 8,
+    "c10": 6
+  },
+  "total": 72,
+  "worst_flaw": "The pilot cannot reliably isolate the lunch reward’s effect because the single-queue comparison is vulnerable to changes over time and the two-queue comparison leaves baseline differences and case mix unaddressed."
+}

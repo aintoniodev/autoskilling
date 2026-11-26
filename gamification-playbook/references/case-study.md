@@ -41,6 +41,22 @@ judge, with no rubric, scored how well it would launch, be noticed and last.
 | The original 13 principles (B1) | 62.6 | 71.2 | 52.8 | 40.3 | 725 |
 | Full evidence workflow (V1) | 74.5 | 65.6 | 46.9 | 35.3 | 896 |
 
+Pooled later over more batches, no guidance scored 65.6 / 76.5 / 56.9 / 48.1 and the
+shipped skill 70.2 / 74.6 / 62.3 / 55.8 (`../research/report.md`).
+
+The same three arms were then run on this case itself (three to six designs each, same
+judges):
+
+| Arm | Rubric | Launch | Noticed | Lasting |
+|---|---|---|---|---|
+| Design from the original 13 principles | 44.3 | 52.0 | 63.3 | 22.0 |
+| No guidance | 62.4 | 77.0 | 50.0 | 40.0 |
+| With the skill | 68.4 | 78.3 | 55.2 | 51.7 |
+
+The original design was the most noticed (badges, a board, a streak) and the least
+lasting. The judge called it over-built for the brief and expected reps to drift back to
+quoting by hand after eight weeks of small prizes.
+
 The original principles made designs worse than no guidance on both judges. They pushed
 mechanics (brackets, streaks, badges, boards) into scenarios where they did not fit. The
 full evidence workflow won on the rubric but lost on the holistic judge. Its designs were

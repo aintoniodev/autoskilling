@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 6,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 6,
+    "c7": 7,
+    "c8": 5,
+    "c9": 6,
+    "c10": 4
+  },
+  "total": 63,
+  "worst_flaw": "Without a plain-feedback comparison, the pilot cannot tell whether the ward reward improves verified logging beyond what training, access fixes, and feedback achieve."
+}

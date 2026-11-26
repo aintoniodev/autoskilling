@@ -1,0 +1,1 @@
+{"criteria":{"c1":8,"c2":7,"c3":6,"c4":6,"c5":7,"c6":6,"c7":7,"c8":4,"c9":7,"c10":6},"total":64,"worst_flaw":"Operability is thin: one engineering lead privately fixes disputed counts with no event history, independent validation or separate appeal path, and the substantive-review spot check (5 reviews per retro) is too small and owned by the same person who runs the reward."}

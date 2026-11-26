@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 7,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 10,
+    "c7": 7,
+    "c8": 5,
+    "c9": 9,
+    "c10": 7
+  },
+  "total": 73,
+  "worst_flaw": "The programme could reward wards and recommend repeating the incentive without ever measuring whether nurses log eligible hand-hygiene moments in the kiosk."
+}

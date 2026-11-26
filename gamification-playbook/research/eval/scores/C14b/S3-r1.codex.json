@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 7,
+    "c3": 5,
+    "c4": 7,
+    "c5": 7,
+    "c6": 8,
+    "c7": 7,
+    "c8": 5,
+    "c9": 7,
+    "c10": 6
+  },
+  "total": 67,
+  "worst_flaw": "The rollout decision relies on a measure that counts a shift as covered after one saved entry, so the pilot can meet its target while most eligible hand-hygiene moments go unlogged."
+}

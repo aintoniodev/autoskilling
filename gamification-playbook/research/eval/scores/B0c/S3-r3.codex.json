@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 6,
+    "c3": 7,
+    "c4": 7,
+    "c5": 7,
+    "c6": 7,
+    "c7": 7,
+    "c8": 5,
+    "c9": 7,
+    "c10": 4
+  },
+  "total": 66,
+  "worst_flaw": "All three wards receive the reward offer, so the pilot cannot isolate its effect from kiosk rollout, practice, and feedback."
+}

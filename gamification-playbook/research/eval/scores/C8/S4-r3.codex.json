@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 7,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 6,
+    "c7": 7,
+    "c8": 5,
+    "c9": 7,
+    "c10": 6
+  },
+  "total": 65,
+  "worst_flaw": "An agent can earn the full reward through exceptions alone, so meeting the personal goal can contribute zero useful articles to the programme’s primary outcome."
+}

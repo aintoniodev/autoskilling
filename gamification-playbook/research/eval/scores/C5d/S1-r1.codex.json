@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 5,
+    "c4": 7,
+    "c5": 7,
+    "c6": 7,
+    "c7": 6,
+    "c8": 6,
+    "c9": 6,
+    "c10": 6
+  },
+  "total": 66,
+  "worst_flaw": "The reward is not launchable as written because using the approved safety fallback can cost the whole crew its paid hour, and auditing only credited digital checklists misses whether technicians bypass the fallback under that pressure."
+}

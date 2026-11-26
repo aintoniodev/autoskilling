@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 7,
+    "c3": 6,
+    "c4": 6,
+    "c5": 7,
+    "c6": 7,
+    "c7": 8,
+    "c8": 6,
+    "c9": 8,
+    "c10": 7
+  },
+  "total": 72,
+  "worst_flaw": "Launch should wait until safety audits cover paper and missing checks and independently verify credited checks, since reviewing records for credited visits alone can miss skipped checks and unreported hazards."
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 9,
+    "c7": 8,
+    "c8": 6,
+    "c9": 7,
+    "c10": 7
+  },
+  "total": 74,
+  "worst_flaw": "Reward launch should wait for independent verification that technicians actually perform the safety checks, since a rushed or false submission can still agree with the dispatch and safety records used in the audit."
+}

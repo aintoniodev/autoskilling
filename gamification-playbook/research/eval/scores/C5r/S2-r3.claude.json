@@ -1,0 +1,1 @@
+{"criteria":{"c1":9,"c2":7,"c3":7,"c4":7,"c5":7,"c6":7,"c7":8,"c8":5,"c9":8,"c10":7},"total":72,"worst_flaw":"The audit design has gaps: there is no replayable event history or policy versioning, appeals go to the same rotation owner who also does the sampling, and five samples per group with a two-of-five pause threshold give a weak signal for detecting gaming."}

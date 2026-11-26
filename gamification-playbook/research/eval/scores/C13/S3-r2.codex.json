@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 8,
+    "c5": 8,
+    "c6": 7,
+    "c7": 8,
+    "c8": 5,
+    "c9": 8,
+    "c10": 7
+  },
+  "total": 73,
+  "worst_flaw": "The design leaves the matching procedure and acceptable error rate undefined, so the reward should launch only after observers demonstrate that they can reliably match audited hand-hygiene events to kiosk entries without identifying staff."
+}

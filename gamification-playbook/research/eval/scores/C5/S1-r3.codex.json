@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 8,
+    "c3": 6,
+    "c4": 8,
+    "c5": 8,
+    "c6": 8,
+    "c7": 7,
+    "c8": 6,
+    "c9": 7,
+    "c10": 7
+  },
+  "total": 74,
+  "worst_flaw": "Do not launch rewards until the denominator explicitly counts jobs that start without a recorded safety decision as misses; otherwise skipped checks could inflate both reward eligibility and reported adoption."
+}

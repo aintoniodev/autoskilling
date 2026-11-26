@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 8,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 8,
+    "c7": 6,
+    "c8": 5,
+    "c9": 9,
+    "c10": 6
+  },
+  "total": 70,
+  "worst_flaw": "The primary metric is a launch blocker because valid exceptions can raise the score above 60% even if agents link or write no more articles on tickets that need them."
+}

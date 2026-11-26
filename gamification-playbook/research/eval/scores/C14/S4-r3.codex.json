@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 7,
+    "c3": 5,
+    "c4": 7,
+    "c5": 7,
+    "c6": 6,
+    "c7": 6,
+    "c8": 5,
+    "c9": 7,
+    "c10": 6
+  },
+  "total": 64,
+  "worst_flaw": "Launch should wait until an independent check can detect whether agents discourage legitimate ticket reopenings to protect their team's paid time off."
+}

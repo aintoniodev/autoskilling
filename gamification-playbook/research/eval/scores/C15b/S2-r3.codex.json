@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 7,
+    "c7": 7,
+    "c8": 5,
+    "c9": 8,
+    "c10": 6
+  },
+  "total": 70,
+  "worst_flaw": "The pilot sets no decision rule for whether the paid half-day improves response times enough beyond the queue fixes and private feedback to justify its cost and any loss of review quality or sprint capacity."
+}

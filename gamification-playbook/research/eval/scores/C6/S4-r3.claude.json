@@ -1,0 +1,1 @@
+{"criteria":{"c1":9,"c2":8,"c3":8,"c4":7,"c5":8,"c6":7,"c7":7,"c8":5,"c9":8,"c10":7},"total":74,"worst_flaw":"The design has no replayable event or policy versioning and no independent shadow validation of credit before payouts. A weekly 10-ticket QA sample is also a thin audit for a paid-time reward at 60 agents, so invalid credits could be paid out unnoticed."}

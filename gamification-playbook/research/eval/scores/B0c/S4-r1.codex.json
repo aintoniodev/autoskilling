@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 6,
+    "c3": 6,
+    "c4": 8,
+    "c5": 7,
+    "c6": 5,
+    "c7": 5,
+    "c8": 5,
+    "c9": 6,
+    "c10": 4
+  },
+  "total": 61,
+  "worst_flaw": "Without a comparison group receiving the same workflow support and private feedback, the pilot cannot tell whether the team reward improves verified coverage."
+}

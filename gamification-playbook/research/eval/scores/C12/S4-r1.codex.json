@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 6,
+    "c3": 5,
+    "c4": 8,
+    "c5": 8,
+    "c6": 7,
+    "c7": 6,
+    "c8": 6,
+    "c9": 6,
+    "c10": 7
+  },
+  "total": 68,
+  "worst_flaw": "The reward decision hinges on a two-point difference in a two-week team comparison without checking whether the number of teams and tickets can distinguish that effect from ordinary variation."
+}

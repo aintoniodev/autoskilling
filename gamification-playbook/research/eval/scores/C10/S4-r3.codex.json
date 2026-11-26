@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 7,
+    "c2": 7,
+    "c3": 5,
+    "c4": 8,
+    "c5": 7,
+    "c6": 7,
+    "c7": 6,
+    "c8": 6,
+    "c9": 9,
+    "c10": 7
+  },
+  "total": 69,
+  "worst_flaw": "Agents with enough tickets that warrant no article can earn the full reward through exception credits alone, even if they never link or write an article when one is warranted."
+}

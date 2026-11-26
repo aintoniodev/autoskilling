@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 8,
+    "c3": 7,
+    "c4": 7,
+    "c5": 8,
+    "c6": 8,
+    "c7": 6,
+    "c8": 6,
+    "c9": 10,
+    "c10": 7
+  },
+  "total": 77,
+  "worst_flaw": "The fixed 80% payout threshold can make one PR decide a low-volume workstream’s reward, with no rule for zero eligible PRs or adjustment for review complexity."
+}

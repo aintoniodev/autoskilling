@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 9,
+    "c7": 7,
+    "c8": 6,
+    "c9": 7,
+    "c10": 6
+  },
+  "total": 73,
+  "worst_flaw": "The reward’s safety gate has a launch-blocking blind spot because the weekly audit samples only credited app checklists, leaving it unable to detect an increase in jobs started without any valid safety check."
+}

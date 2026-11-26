@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 7,
+    "c3": 5,
+    "c4": 7,
+    "c5": 7,
+    "c6": 6,
+    "c7": 7,
+    "c8": 6,
+    "c9": 8,
+    "c10": 6
+  },
+  "total": 67,
+  "worst_flaw": "The same 30% reward threshold applies across teams even when their queues differ in how many tickets can usefully be linked to an existing article or justify a new one."
+}

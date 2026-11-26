@@ -1,0 +1,1 @@
+{"criteria":{"c1":8,"c2":7,"c3":6,"c4":7,"c5":7,"c6":6,"c7":7,"c8":6,"c9":7,"c10":6},"total":67,"worst_flaw":"The 85% target is not tied to a feasibility check, and it is all-or-nothing over four weeks. It also does not adjust for PR size or complexity, so with only two groups and five-review quality samples, a miss or an apparent effect is hard to interpret."}

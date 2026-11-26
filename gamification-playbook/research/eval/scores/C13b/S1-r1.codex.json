@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 5,
+    "c4": 7,
+    "c5": 8,
+    "c6": 7,
+    "c7": 7,
+    "c8": 6,
+    "c9": 7,
+    "c10": 7
+  },
+  "total": 70,
+  "worst_flaw": "Launch should wait until the pilot checks that work starts only after a valid safety assessment, because auditing credited jobs alone leaves unsafe starts on uncredited jobs undetected."
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 6,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 8,
+    "c7": 8,
+    "c8": 5,
+    "c9": 8,
+    "c10": 4
+  },
+  "total": 68,
+  "worst_flaw": "The award’s safety gate blocks launch because small audit samples and a five-point cutoff that ignores sampling uncertainty can let a ward qualify despite a material decline in hand-hygiene compliance."
+}

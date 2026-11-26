@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 5,
+    "c4": 7,
+    "c5": 7,
+    "c6": 7,
+    "c7": 6,
+    "c8": 6,
+    "c9": 8,
+    "c10": 6
+  },
+  "total": 68,
+  "worst_flaw": "The 9-of-10 audit can pass even when it finds a customer-information leak, with no specified containment or payout pause for that breach."
+}

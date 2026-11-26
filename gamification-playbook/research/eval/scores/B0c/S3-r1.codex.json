@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 6,
+    "c3": 6,
+    "c4": 8,
+    "c5": 7,
+    "c6": 6,
+    "c7": 7,
+    "c8": 6,
+    "c9": 5,
+    "c10": 4
+  },
+  "total": 63,
+  "worst_flaw": "Without a plain-feedback comparison, the pilot cannot determine whether the team reward improves logging beyond feedback and kiosk workflow fixes."
+}

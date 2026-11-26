@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 7,
+    "c3": 5,
+    "c4": 7,
+    "c5": 7,
+    "c6": 8,
+    "c7": 6,
+    "c8": 6,
+    "c9": 7,
+    "c10": 6
+  },
+  "total": 67,
+  "worst_flaw": "The fixed 40% reward threshold counts tickets with no safe or reusable documentation opportunity against teams, creating pressure to attach unsuitable articles when those cases are common."
+}

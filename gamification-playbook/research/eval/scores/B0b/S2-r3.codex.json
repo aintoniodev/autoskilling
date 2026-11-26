@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 8,
+    "c5": 7,
+    "c6": 7,
+    "c7": 6,
+    "c8": 5,
+    "c9": 6,
+    "c10": 5
+  },
+  "total": 66,
+  "worst_flaw": "The pilot introduces the reward alongside protected review time, a rota, and reminders, so it cannot determine whether the reward adds value beyond those workflow changes."
+}

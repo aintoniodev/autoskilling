@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 7,
+    "c3": 5,
+    "c4": 7,
+    "c5": 8,
+    "c6": 7,
+    "c7": 7,
+    "c8": 5,
+    "c9": 7,
+    "c10": 6
+  },
+  "total": 67,
+  "worst_flaw": "The pilot is unsafe to launch because a ward can earn the reward even if its audited hand-hygiene compliance falls five percentage points below baseline, and routine audits can take a month to detect a larger drop."
+}

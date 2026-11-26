@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 6,
+    "c6": 8,
+    "c7": 7,
+    "c8": 6,
+    "c9": 7,
+    "c10": 5
+  },
+  "total": 67,
+  "worst_flaw": "The design promises a team-wide payout but applies the threshold in separate reward windows without defining how PRs handled across rotations count, leaving both payout eligibility and the estimate of the reward’s effect unreliable."
+}

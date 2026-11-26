@@ -1,0 +1,1 @@
+{"criteria":{"c1":8,"c2":7,"c3":5,"c4":7,"c5":7,"c6":6,"c7":6,"c8":5,"c9":7,"c10":6},"total":64,"worst_flaw":"Goals and feedback ignore uneven reviewer load, PR size and case mix: one fixed 85% team threshold with no per-area normalisation or handling of zero-PR weeks, and corrections or appeals rest on a single owner without replayable rule versions or a staffed appeal path."}

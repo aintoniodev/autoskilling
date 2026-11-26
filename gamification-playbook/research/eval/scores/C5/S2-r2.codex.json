@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 10,
+    "c2": 8,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 7,
+    "c7": 6,
+    "c8": 7,
+    "c9": 9,
+    "c10": 6
+  },
+  "total": 73,
+  "worst_flaw": "The two-group pilot does not account for cross-group coverage or changes in PR complexity, so it cannot reliably tell whether the paid half-day adds value beyond the workflow fixes and feedback."
+}

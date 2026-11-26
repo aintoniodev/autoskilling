@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 8,
+    "c7": 8,
+    "c8": 7,
+    "c9": 8,
+    "c10": 5
+  },
+  "total": 71,
+  "worst_flaw": "The specified three-week overlap cannot isolate the reward’s effect because both groups are earning rewards during that period."
+}

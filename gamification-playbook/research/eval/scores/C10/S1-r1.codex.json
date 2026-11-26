@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 7,
+    "c7": 6,
+    "c8": 5,
+    "c9": 7,
+    "c10": 6
+  },
+  "total": 67,
+  "worst_flaw": "The pilot uses offline device timestamps to award credit and measure success without independently validating that they reliably distinguish pre-job safety checks from late entries."
+}

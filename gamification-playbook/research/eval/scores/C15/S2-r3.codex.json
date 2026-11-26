@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 8,
+    "c5": 7,
+    "c6": 8,
+    "c7": 6,
+    "c8": 6,
+    "c9": 8,
+    "c10": 6
+  },
+  "total": 71,
+  "worst_flaw": "The pilot sets no threshold for how much improvement over the queue, coverage and private feedback alone would justify the cost of paid time off."
+}

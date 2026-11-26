@@ -1,0 +1,5 @@
+{
+  "criteria": {"c1": 9, "c2": 8, "c3": 6, "c4": 7, "c5": 8, "c6": 9, "c7": 8, "c8": 7, "c9": 7, "c10": 7},
+  "total": 76,
+  "worst_flaw": "The post-reward decision uses digital completion alone, so the workflow could be retained even if technicians become worse at spotting or acting on hazards."
+}

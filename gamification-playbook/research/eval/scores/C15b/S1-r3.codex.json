@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 8,
+    "c3": 6,
+    "c4": 7,
+    "c5": 8,
+    "c6": 8,
+    "c7": 7,
+    "c8": 6,
+    "c9": 8,
+    "c10": 6
+  },
+  "total": 73,
+  "worst_flaw": "The pilot is unsafe to launch because crews can earn credit for marking hazards clear without an independent check that technicians actually assessed those hazards before starting work."
+}

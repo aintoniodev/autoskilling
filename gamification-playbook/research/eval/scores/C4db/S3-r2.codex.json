@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 8,
+    "c2": 7,
+    "c3": 7,
+    "c4": 8,
+    "c5": 8,
+    "c6": 8,
+    "c7": 8,
+    "c8": 5,
+    "c9": 8,
+    "c10": 7
+  },
+  "total": 74,
+  "worst_flaw": "The pilot decides whether to keep the kiosk using audited hand-hygiene compliance without measuring what fraction of eligible moments nurses log or whether those logs add enough value to justify the extra work."
+}

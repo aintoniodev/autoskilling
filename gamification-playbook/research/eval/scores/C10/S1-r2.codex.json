@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "c1": 9,
+    "c2": 7,
+    "c3": 6,
+    "c4": 7,
+    "c5": 7,
+    "c6": 6,
+    "c7": 6,
+    "c8": 5,
+    "c9": 9,
+    "c10": 7
+  },
+  "total": 69,
+  "worst_flaw": "Launch requires independently validating recorded job starts against actual starts because a delayed start record can make a late checklist qualify for a reward."
+}
