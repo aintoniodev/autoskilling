@@ -18,7 +18,7 @@
 
 Scripts: `eval/design.sh`, `eval/judge.sh`, `eval/holistic.sh`, `eval/pack.py`, `eval/pool.py`.
 Every variant tested is in `eval/skill-*.md`. Per-design scores, worst flaws and holistic
-reasons are in `eval/results/<label>.jsonl`; `pool.py` reads them. The raw judge outputs and
+reasons are in `eval/results.jsonl` (one line per design, tagged by label); `pool.py` reads it. The raw judge outputs and
 the designs themselves stay local (`.gitignore`).
 
 ## Why a holistic judge

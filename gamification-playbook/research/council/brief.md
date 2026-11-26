@@ -57,7 +57,7 @@ specific thanks, a small gift card)". d-batches carry the corrected defaults cla
 
 Every variant's text: `research/eval/skill-*.md`. Judge notes for B0, C2 and C4:
 `research/council/judge-notes.md`, `judge-notes-C4.md`; scores, worst flaws and holistic
-reasons for every batch: `research/eval/results/<label>.jsonl`.
+reasons for every batch: `research/eval/results.jsonl`.
 Round history, every reviewer's earlier blocking issues and what was done about each:
 `research/council/LOG.md`. Read it first and don't re-raise an item already resolved
 there unless the numbers show it still hurts. Evidence: `references/evidence.md`.

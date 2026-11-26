@@ -1,9 +1,11 @@
-# usage: pool.py B0=<labels joined by +> NAME=<labels> ... ; reads results/<label>.jsonl
+# usage: pool.py B0=<labels joined by +> NAME=<labels> ... ; reads results.jsonl
 import json,statistics as st,sys,random
 def load(L):
     out=[]
-    for line in open(f"results/{L}.jsonl"):
-        r=json.loads(line); h=r.get("holistic",{}); j=r.get("rubric",{})
+    for line in open("results.jsonl"):
+        r=json.loads(line)
+        if r["label"]!=L: continue
+        h=r.get("holistic",{}); j=r.get("rubric",{})
         if not j or not all(k in h for k in ("launch","noticed","lasting")): continue
         out.append({"rubric":st.mean(float(v["total"]) for v in j.values()),**{k:float(h[k]) for k in ("launch","noticed","lasting")}})
     return out
