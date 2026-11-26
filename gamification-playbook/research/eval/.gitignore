@@ -1,5 +1,0 @@
-# raw run output; pack.py folds scores into results.jsonl
-designs/
-scores/
-holistic/
-*.log

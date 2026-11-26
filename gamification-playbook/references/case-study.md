@@ -35,14 +35,18 @@ Each skill variant was given to a design agent for four unrelated held-out scena
 each. Two blind judges scored each design against a frozen ten-criterion rubric. A third
 judge, with no rubric, scored how well it would launch, be noticed and last.
 
-| Variant | Rubric (0–100) | Launch | Noticed | Lasting | Words |
-|---|---|---|---|---|---|
-| No guidance (B0) | 69.9 | 79.7 | 56.0 | 52.4 | 722 |
-| The original 13 principles (B1) | 62.6 | 71.2 | 52.8 | 40.3 | 725 |
-| Full evidence workflow (V1) | 74.5 | 65.6 | 46.9 | 35.3 | 896 |
+| Arm | Rubric (0–100) | Launch | Noticed | Lasting |
+|---|---|---|---|---|
+| No guidance (n=36) | 65.6 | 76.5 | 56.9 | 48.1 |
+| The original 13 principles (n=12) | 62.6 | 71.2 | 52.8 | 40.3 |
+| This skill (n=24) | 70.2 | 74.6 | 62.3 | 55.8 |
 
-Pooled later over more batches, no guidance scored 65.6 / 76.5 / 56.9 / 48.1 and the
-shipped skill 70.2 / 74.6 / 62.3 / 55.8 (`../research/report.md`).
+Against no guidance, the skill gained +4.6 rubric points (95% bootstrap interval +2.8 to
++6.4), +5.4 noticed (+2.4 to +8.4) and +7.6 lasting (+2.7 to +12.5). Launch was level
+(−1.9, interval −4.7 to +1.1). Results from one batch moved by 4–6 rubric points between
+reruns, so these numbers pool several batches. An earlier variant that walked through the
+full evidence workflow scored highest on the rubric (74.5) but lowest on launch, noticed and
+lasting (65.6 / 46.9 / 35.3).
 
 The same three arms were then run on this case itself (three to six designs each, same
 judges):
@@ -60,8 +64,8 @@ quoting by hand after eight weeks of small prizes.
 The original principles made designs worse than no guidance on both judges. They pushed
 mechanics (brackets, streaks, badges, boards) into scenarios where they did not fit. The
 full evidence workflow won on the rubric but lost on the holistic judge. Its designs were
-rigorous but heavy to run, hard to explain, and nobody would notice them. The shipped
-skill is the result of closing that gap. `../research/report.md` has the full loop.
+rigorous but heavy to run, hard to explain, and nobody would notice them. This skill is
+the result of closing that gap.
 
 ## Lessons
 

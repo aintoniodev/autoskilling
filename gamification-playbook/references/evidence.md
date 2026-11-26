@@ -8,7 +8,7 @@ workplace. Most of this evidence comes from exercise, sales, schools and public
 services, not from adopting software at work. Treat every rule as a default to test.
 
 Citations were checked against the paper, an author manuscript or an abstract record in
-2026. The full research trail (findings, debate, experiments) is in `../research/`.
+2026.
 
 ## Fix the work first
 
@@ -16,7 +16,7 @@ Citations were checked against the paper, an author manuscript or an abstract re
 |---|---|---|---|
 | A better tool can raise output by itself, with bigger gains for novices | B | Brynjolfsson, Li and Raymond, "Generative AI at Work", NBER w31161 (2023), ~14% more support issues resolved per hour. https://www.nber.org/papers/w31161 | Tool effect, not an incentive effect. |
 | Cue-based behaviour forms from repeated context and response pairs | C | Wood and Neal (2007), Psychological Review 114(4). https://doi.org/10.1037/0033-295X.114.4.843 | Theory and review. |
-| Build it with the workers; give paid or protected time to learn | D | Design inference. Nearest field evidence: assigned mentoring raised sales-agent revenue ~19% (Sandvik et al. 2024, B, below). In the eval, adding this rule raised every score (see `../research/loop.tsv`, C1 → C2). | Not tested as a separate arm. |
+| Build it with the workers; give paid or protected time to learn | D | Design inference. Nearest field evidence: assigned mentoring raised sales-agent revenue ~19% (Sandvik et al. 2024, B, below). In the eval, adding this rule raised every score. | Not tested as a separate arm. |
 | Make fixes visible ("you reported it, we fixed it") | D | Design inference; kept from the real case. | Untested. |
 | Flexible incentives beat a fixed time window for building a routine | B | Beshears et al. (2021), Management Science 67(7). https://doi.org/10.1287/mnsc.2020.3706 | Gym visits. |
 
@@ -62,7 +62,7 @@ Citations were checked against the paper, an author manuscript or an abstract re
 | A threshold team bonus raised sales and customers served ~3% | B | Friebel et al. (2017), American Economic Review 107(8). https://doi.org/10.1257/aer.20160788 | Bakery chain; no rank shown. |
 | Store tournaments with team ranks had mixed effects | B | Delfgaauw et al. (2013). https://papers.tinbergen.nl/09069.pdf | Varied by team composition. |
 | Mentoring (support, not prizes) raised revenue ~19% | B | Sandvik et al. (2024), Management Science. https://doi.org/10.1287/mnsc.2024.07524 | Sales call centre. |
-| A reward people talk about: public, announced, handed over in person (paid time off, a meal with a senior leader, a leader's specific public thanks) | D | Design inference from public recognition (Ashraf, Bandiera and Jack 2014, B) and an announced award (Kosfeld and Neckermann 2011, B), above. In the eval it raised noticed over a "modest" reward (C4 → C5, see `../research/council/LOG.md`). Counterweight: expected tangible rewards for merely doing a task can lower later interest (Deci et al. 1999, A, below), so tie it to verified work and make the new way the default before it ends. | Reward size and form untested; no specific amount is supported. |
+| A reward people talk about: public, announced, handed over in person (paid time off, a meal with a senior leader, a leader's specific public thanks) | D | Design inference from public recognition (Ashraf, Bandiera and Jack 2014, B) and an announced award (Kosfeld and Neckermann 2011, B), above. In the eval it raised noticed over a reward described only as "modest". Counterweight: expected tangible rewards for merely doing a task can lower later interest (Deci et al. 1999, A, below), so tie it to verified work and make the new way the default before it ends. | Reward size and form untested; no specific amount is supported. |
 | Meeting a beneficiary raised persistence and output | B | Grant et al. (2007, 2008), J Applied Psychology. https://doi.org/10.1037/0021-9010.93.1.108 | Fundraising and lifeguards; stories must be true. |
 | Expected tangible rewards for merely doing a task lower later free-choice interest | A | Deci, Koestner and Ryan (1999), Psychological Bulletin 125(6). https://doi.org/10.1037/0033-2909.125.6.627 ; contested scope: Cameron and Pierce (1994). https://doi.org/10.3102/00346543064003363 | Lab free-choice, not retention at work. |
 | A small fine became a price and raised the unwanted behaviour | B | Gneezy and Rustichini (2000), Journal of Legal Studies 29(1). https://rady.ucsd.edu/_files/faculty-research/uri-gneezy/fine.pdf | Day-care pick-ups. |
@@ -86,7 +86,7 @@ Citations were checked against the paper, an author manuscript or an abstract re
 | Defaults change behaviour, d = 0.68 across 58 studies | A | Jachimowicz et al. (2019), Behavioural Public Policy 3(2). https://doi.org/10.1017/bpp.2018.43 | Mostly consumer and policy choices. |
 | Automatic enrolment raised 401(k) participation from 37% to 86% of new hires | B | Madrian and Shea (2001), Quarterly Journal of Economics 116(4). https://doi.org/10.1162/003355301753265543 | One firm, retirement saving. |
 | Many promising interventions fail to move the outcome; experts rank them poorly | A | Milkman et al. (2021); DellaVigna and Linos (2022), Econometrica 90(1). https://doi.org/10.3982/ECTA18709 | Reason to compare, not an effect size. |
-| Start the reward a few weeks apart by team, after fixes for everyone, to see what the reward adds | D | Design inference: a stepped-wedge rollout gives every team the reward while leaving a comparison. Motivated by Milkman et al. (2021) and DellaVigna and Linos (2022), above. In the eval, making it optional (C11) lowered the rubric score (see `../research/council/LOG.md`). | Teams differ; a few weeks of overlap is a weak comparison. |
+| Start the reward a few weeks apart by team, after fixes for everyone, to see what the reward adds | D | Design inference: a stepped-wedge rollout gives every team the reward while leaving a comparison. Motivated by Milkman et al. (2021) and DellaVigna and Linos (2022), above. In the eval, making it optional lowered the rubric score. | Teams differ; a few weeks of overlap is a weak comparison. |
 | Follow-up length set by opportunity volume and decision horizon | D | Design inference. | |
 
 ## What is not supported
