@@ -1,1 +1,0 @@
-{"criteria":{"c1":7,"c2":5,"c3":5,"c4":7,"c5":7,"c6":5,"c7":7,"c8":4,"c9":6,"c10":3},"total":56,"worst_flaw":"The design never tests whether the kiosk adds value over the existing observer audit: there is no comparison arm and no predefined outcome or decision threshold, and the kiosk logging may itself be low-value work that takes nurses away from care."}

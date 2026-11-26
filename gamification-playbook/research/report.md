@@ -14,10 +14,10 @@ interval of the difference in brackets):
 
 | | No skill (n=36) | Skill C15 (n=24) | Difference |
 |---|---|---|---|
-| Rubric | 65.6 | 70.2 | +4.6 [+2.7, +6.5] |
-| Launch | 76.5 | 74.6 | −1.9 [−4.7, +0.9] |
-| Noticed | 56.9 | 62.3 | +5.4 [+2.4, +8.5] |
-| Lasting | 48.1 | 55.8 | +7.6 [+2.8, +12.3] |
+| Rubric | 65.6 | 70.2 | +4.6 [+2.8, +6.4] |
+| Launch | 76.5 | 74.6 | −1.9 [−4.7, +1.1] |
+| Noticed | 56.9 | 62.3 | +5.4 [+2.4, +8.4] |
+| Lasting | 48.1 | 55.8 | +7.6 [+2.7, +12.5] |
 
 Launch is a tie the harness cannot separate: the interval crosses zero and the gap is
 smaller than the no-skill arm's own batch-to-batch spread.

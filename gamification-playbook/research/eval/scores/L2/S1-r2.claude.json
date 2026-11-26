@@ -1,1 +1,0 @@
-{"criteria":{"c1":9,"c2":8,"c3":8,"c4":7,"c5":7,"c6":8,"c7":8,"c8":6,"c9":8,"c10":7},"total":76,"worst_flaw":"The design gives no replayable event or policy versions and no shadow validation before launch, and it never checks whether paired-crew randomisation of about 300 technicians can detect the 10-point decision threshold or how much the programme costs."}

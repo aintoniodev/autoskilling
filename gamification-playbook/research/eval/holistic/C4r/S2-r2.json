@@ -1,1 +1,0 @@
-{"launch": 72, "noticed": 62, "lasting": 66, "reason": "Fixes the real bottleneck (routing and protected review time) before rewarding, uses a team-level metric with private feedback and a sceptic-friendly small reward, and has solid gaming guards, but it is complex to explain, adds weekly sampling overhead and relies on the lunch motivating a sceptical team."}

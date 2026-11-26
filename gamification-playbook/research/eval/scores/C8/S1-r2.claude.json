@@ -1,1 +1,0 @@
-{"criteria":{"c1":9,"c2":8,"c3":8,"c4":7,"c5":8,"c6":6,"c7":8,"c8":5,"c9":8,"c10":6},"total":73,"worst_flaw":"The quality audit relies on a 10-record weekly sample, which cannot reliably catch checklists ticked through without a real inspection or pressure to log holds, and there is no independent validation of the counting logic and no event history that can be replayed."}

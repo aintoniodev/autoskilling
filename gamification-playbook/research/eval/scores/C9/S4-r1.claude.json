@@ -1,1 +1,0 @@
-{"criteria": {"c1": 8, "c2": 7, "c3": 6, "c4": 8, "c5": 6, "c6": 6, "c7": 7, "c8": 5, "c9": 7, "c10": 6}, "total": 66, "worst_flaw": "The all-or-nothing 80% reward threshold over a four-week window does not handle small or zero-opportunity caseloads, and the team-randomised comparison with only a few teams has no plan for uncertainty or case mix."}

@@ -1,1 +1,0 @@
-{"criteria":{"c1":8,"c2":8,"c3":6,"c4":7,"c5":7,"c6":7,"c7":7,"c8":6,"c9":7,"c10":6},"total":69,"worst_flaw":"The design gives no rule for leave, on-call or outages, so absent rotation members or uneven per-reviewer load can sink the group's 70% reward threshold, and the comparison uses only two groups over two weeks, too few to separate the reward's effect from noise."}

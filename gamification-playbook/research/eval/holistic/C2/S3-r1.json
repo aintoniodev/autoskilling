@@ -1,1 +1,0 @@
-{"launch": 62, "noticed": 55, "lasting": 40, "reason": "The design is thoughtful (workflow fixes, shared ward reward, audit reconciliation, pause rules), but it is complex to run, the reward depends on small audit samples, the privacy-sensitive code matching may erode trust, and the reward ends after only two cycles with no mechanism beyond the kiosk default to sustain logging."}

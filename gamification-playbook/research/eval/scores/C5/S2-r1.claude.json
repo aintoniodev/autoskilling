@@ -1,1 +1,0 @@
-{"criteria":{"c1":9,"c2":8,"c3":7,"c4":8,"c5":8,"c6":8,"c7":8,"c8":6,"c9":8,"c10":7},"total":77,"worst_flaw":"The design lacks versioned event and policy records and independent shadow validation of the PR-timestamp scoring, so miscounts are caught only when someone appeals, not by a replayable audit."}

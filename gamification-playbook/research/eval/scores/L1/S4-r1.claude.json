@@ -1,1 +1,0 @@
-{"criteria":{"c1":8,"c2":8,"c3":6,"c4":8,"c5":7,"c6":6,"c7":9,"c8":6,"c9":8,"c10":7},"total":73,"worst_flaw":"The 30% team target and the 10-point scale threshold are not tied to a baseline or feasibility check, and the design never deals with tickets that need no article, so with only a few pods in a 60-person org the pilot cannot measure the effect with useful confidence."}

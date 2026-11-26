@@ -1,1 +1,0 @@
-{"criteria":{"c1":9,"c2":8,"c3":7,"c4":7,"c5":7,"c6":8,"c7":8,"c8":6,"c9":8,"c10":7},"total":75,"worst_flaw":"The design has no replayable event and policy versioning and no independent shadow validation, and the QA sample of five jobs a week is too thin to reliably catch rushed or backdated checklists before the group reward pays out."}

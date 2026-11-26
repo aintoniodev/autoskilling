@@ -1,1 +1,0 @@
-{"criteria": {"c1": 8, "c2": 8, "c3": 7, "c4": 8, "c5": 7, "c6": 8, "c7": 8, "c8": 6, "c9": 8, "c10": 7}, "total": 75, "worst_flaw": "The team-level PTO threshold of 30% is a single fixed bar with only a vague check for queue mix, and the 10-case weekly audit is too small to reliably trigger the 2-in-10 pause rule or to estimate useful coverage precisely across about six teams."}

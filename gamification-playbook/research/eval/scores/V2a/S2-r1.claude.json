@@ -1,1 +1,0 @@
-{"criteria": {"c1": 8, "c2": 7, "c3": 6, "c4": 7, "c5": 7, "c6": 6, "c7": 8, "c8": 6, "c9": 7, "c10": 4}, "total": 66, "worst_flaw": "Learning design is an uncontrolled before/after comparison. It admits it cannot isolate the reward's effect, sets no comparison against plain routing and protected time, and does not handle PR size or complexity mix."}

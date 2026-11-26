@@ -1,1 +1,0 @@
-{"criteria":{"c1":9,"c2":8,"c3":6,"c4":8,"c5":8,"c6":8,"c7":9,"c8":7,"c9":7,"c10":7},"total":77,"worst_flaw":"The design randomises crews for a one-month pilot but never shows the number of crews is enough to detect a 10-point gain. It also ignores spillover between crews that share fixes and briefings, so the scale decision may rest on noise."}

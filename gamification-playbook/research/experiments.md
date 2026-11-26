@@ -16,9 +16,10 @@
 - **Acceptance guard**, declared before the variant results: the rubric is primary, but no
   variant is accepted if it falls below the no-skill baseline on the holistic judge.
 
-Scripts: `eval/design.sh`, `eval/judge.sh`, `eval/holistic.sh`, `eval/score.py`. Every
-variant tested is in `eval/skill-*.md`; per-design scores are in `eval/scores/` and
-`eval/holistic/`.
+Scripts: `eval/design.sh`, `eval/judge.sh`, `eval/holistic.sh`, `eval/pack.py`, `eval/pool.py`.
+Every variant tested is in `eval/skill-*.md`. Per-design scores, worst flaws and holistic
+reasons are in `eval/results/<label>.jsonl`; `pool.py` reads them. The raw judge outputs and
+the designs themselves stay local (`.gitignore`).
 
 ## Why a holistic judge
 

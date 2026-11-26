@@ -1,1 +1,0 @@
-{"criteria": {"c1": 8, "c2": 6, "c3": 8, "c4": 8, "c5": 8, "c6": 7, "c7": 7, "c8": 5, "c9": 5, "c10": 4}, "total": 66, "worst_flaw": "The pilot has no comparison against plain feedback with no reward, and it does not measure logging after the reward is retired, so it cannot show what the incentive added or whether logging lasts."}

@@ -1,1 +1,0 @@
-{"criteria": {"c1": 7, "c2": 7, "c3": 6, "c4": 6, "c5": 6, "c6": 6, "c7": 5, "c8": 4, "c9": 7, "c10": 2}, "total": 56, "worst_flaw": "The design has no comparison group or predefined decision criteria, so it cannot separate the incentive's effect from the workflow fixes, and the CSAT bonus conflict is only watched through a lagging team-level pause rather than reconciled."}

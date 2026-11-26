@@ -1,1 +1,0 @@
-{"criteria": {"c1": 8, "c2": 8, "c3": 6, "c4": 7, "c5": 8, "c6": 7, "c7": 7, "c8": 6, "c9": 8, "c10": 6}, "total": 71, "worst_flaw": "The test compares randomised crews over only two weeks, with no sample-size check, no handling of spillover between crews or case mix, and no harm or cost outcomes set in advance, so it cannot reliably show what the reward adds."}

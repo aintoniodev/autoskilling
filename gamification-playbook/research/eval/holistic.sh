@@ -26,3 +26,4 @@ for p in glob.glob(f"holistic/{L}/*.json"):
 for p in glob.glob(f"designs/{L}/*.md"): w.append(len(open(p).read().split()))
 print(L," ".join(f"{x} {st.mean(v):.1f}" for x,v in k.items()), f"words {st.mean(w):.0f}")
 PY
+python3 pack.py $L

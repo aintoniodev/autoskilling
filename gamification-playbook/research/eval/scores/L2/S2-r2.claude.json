@@ -1,1 +1,0 @@
-{"criteria":{"c1":9,"c2":8,"c3":6,"c4":8,"c5":7,"c6":7,"c7":8,"c8":6,"c9":8,"c10":4},"total":71,"worst_flaw":"The evaluation is a single-team before/after comparison with no control or plain-support arm, so it cannot show whether the incentive adds anything beyond the routing and notification fixes, and the design admits it measures only the combined package."}

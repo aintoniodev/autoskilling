@@ -1,1 +1,0 @@
-{"criteria": {"c1": 8, "c2": 7, "c3": 6, "c4": 7, "c5": 7, "c6": 6, "c7": 7, "c8": 5, "c9": 8, "c10": 6}, "total": 67, "worst_flaw": "The pilot keeps the CSAT bonus and tracks CSAT only as a lagging team-level trigger. It never checks whether linking articles helps resolution quality, and 10 sampled tickets a week is too few to catch irrelevant links across 60 agents."}

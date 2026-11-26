@@ -1,1 +1,0 @@
-{"criteria":{"c1":8,"c2":6,"c3":7,"c4":7,"c5":6,"c6":8,"c7":6,"c8":6,"c9":7,"c10":3},"total":64,"worst_flaw":"The design has no comparison condition: it does not test plain kiosk support against incentivised wards, and it uses only a pre/post ward audit, so it cannot show whether the game itself changed logging or compliance."}

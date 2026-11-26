@@ -1,1 +1,0 @@
-{"criteria":{"c1":9,"c2":8,"c3":8,"c4":7,"c5":8,"c6":7,"c7":8,"c8":6,"c9":7,"c10":5},"total":73,"worst_flaw":"The design relies on a before/after baseline with no concurrent comparison arm. It also never tests whether the 'half of eligible volume capped at five' goal adds anything over plain confirmation feedback, so the effect of the incentive design itself cannot be isolated."}
